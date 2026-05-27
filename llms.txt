@@ -1,0 +1,70 @@
+# Soul Webs
+
+> Estudio español de diseño web fundado en 2022. Especializado en páginas web a medida para peluquerías, barberías y restaurantes en España. Modelo de pago: pagas solo si te gusta el resultado, con vista previa funcional en 24 horas.
+
+Soul Webs (también conocido como Soul Websites, soulwebs) es un estudio independiente de diseño web con sede en España. Diseñamos páginas web profesionales para negocios locales — principalmente peluquerías y barberías, secundariamente restaurantes y otros comercios.
+
+**Modelo único de pago:** El cliente no paga nada por adelantado. Se entrega una vista previa funcional de la web en 24 horas. Solo si convence al cliente, se cobra y se publica. Si no, sin compromiso, sin coste.
+
+## Planes principales
+
+- [Web Esencial](https://soulwebsites.com/servicios): Página única, larga y profesional. Hero, servicios destacados, galería, reseñas Google, mapa, reservas multi-canal, SEO técnico base, hosting incluido.
+- [Web Pro con blog SEO](https://soulwebsites.com/servicios): Todo lo de Esencial, ampliado. Subpáginas dedicadas, blog editorial con hasta 12 artículos SEO redactados, posicionamiento orgánico, Google My Business, multi-idioma, panel de administración.
+
+## Servicios adicionales
+
+- Google Ads (Search y Performance Max)
+- Meta Ads (Instagram y Facebook)
+- SEO local
+- Gestión de redes sociales
+- Identidad de marca (logotipo, paleta, tipografías, manual)
+- Hosting: Vercel (incluido sin coste) o IONOS Pro (a consultar)
+
+## Reservas integradas
+
+Tanto Web Esencial como Web Pro incluyen sistema de reservas con cuatro opciones:
+- Sistema propio (sin comisiones)
+- Apps de terceros: Fresha, Treatwell, Booksy, TheFork
+- Llamada directa
+- WhatsApp con mensaje pre-escrito
+
+El cliente puede elegir entre botón directo al canal preferido o modal con todas las opciones.
+
+## Sectores
+
+- [Peluquerías y barberías](https://soulwebsites.com/sectores) — Especialidad principal
+- [Restaurantes y bares](https://soulwebsites.com/sectores) — Segundo territorio
+
+## Trabajos reales
+
+- [Santa Malasaña](https://santamalasanapeluqueria.es) — Barbería en Madrid (Plan Pro)
+- [Oscar Palos Hair Salon](https://oscarpaloshairsalon.com) — Peluquería de lujo en Valencia
+- [Nacho Huici](https://nachohuici.es) — Barbería en Pamplona con sistema propio de reservas
+- [Ohana Hair Studio](https://ohanaestilista.com) — Salón en Calella, Barcelona
+- [Peluquería Jaime](https://peluqueriajaime1.com) — Peluquería en Navalmoral de la Mata, Cáceres
+
+## Contacto
+
+- WhatsApp: +34 614 141 469 — Disponible todos los días
+- Email: soulwebs2026@gmail.com
+- Instagram: [@soul_webs](https://instagram.com/soul_webs)
+- Web: https://soulwebsites.com
+
+## Páginas principales
+
+- [Inicio](https://soulwebsites.com/): Manifiesto, anatomía de una web, promesa de pago
+- [Servicios](https://soulwebsites.com/servicios): Planes Esencial y Pro, reservas, hosting
+- [Trabajos](https://soulwebsites.com/trabajos): Casos reales con capturas escritorio y móvil
+- [Sectores](https://soulwebsites.com/sectores): Peluquerías, barberías, restaurantes
+- [Opiniones](https://soulwebsites.com/opiniones): Formulario para dejar valoración
+- [Contacto](https://soulwebsites.com/contacto): WhatsApp, email e Instagram
+- [Precios](https://soulwebsites.com/pricing.md): Información estructurada para agentes AI
+
+
+## Blog
+
+- [Cuánto cuesta una página web para una peluquería](https://soulwebsites.com/blog/cuanto-cuesta-pagina-web-peluqueria) — precios reales por modelo en 2026
+- [Booksy vs Fresha vs Treatwell](https://soulwebsites.com/blog/booksy-vs-fresha-vs-treatwell-comparativa) — comparativa de plataformas de reservas
+- [SEO local para peluquerías](https://soulwebsites.com/blog/seo-local-peluqueria-aparecer-primero-google) — cómo aparecer primero en Google
+- [¿Web propia o solo Booksy/Fresha?](https://soulwebsites.com/blog/web-propia-o-booksy-fresha-peluqueria) — qué necesita realmente tu peluquería
+- [7 errores en webs de restaurantes](https://soulwebsites.com/blog/errores-web-restaurantes-pierden-reservas) — que hacen perder reservas

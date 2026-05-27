@@ -1,0 +1,162 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        }
+      ]
+    },
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/llms.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/llms-full.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/pricing.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/AGENTS.md",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/markdown; charset=utf-8"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/inicio",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/resenas",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/resenas.html",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/resenyas",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/resenyas.html",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/rese\u00f1as",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/rese\u00f1as.html",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/reviews",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/testimonios",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/services",
+      "destination": "/servicios",
+      "permanent": true
+    },
+    {
+      "source": "/works",
+      "destination": "/trabajos",
+      "permanent": true
+    },
+    {
+      "source": "/contact",
+      "destination": "/contacto",
+      "permanent": true
+    }
+  ]
+}

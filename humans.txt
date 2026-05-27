@@ -1,0 +1,14 @@
+/* TEAM */
+Estudio: Soul Webs
+Sede: España
+Contacto: soulwebs2026 [at] gmail.com
+WhatsApp: +34 614 141 469
+Instagram: @soul_webs
+
+/* SITE */
+Última actualización: 2026/05/27
+Idioma: Español
+Doctype: HTML5
+Hosting: Vercel
+Stack: HTML + CSS + Vanilla JS
+Tipografías: Fraunces, Geist, Geist Mono
