@@ -285,8 +285,8 @@ nav {
   width: 100%;
   max-width: 300px;
   /* Carcasa + status bar 38px + image 1096px (escalada) + url bar 42px + padding 22px */
-  /* Aspect-ratio cuadra exactamente: 600 / 1158 */
-  aspect-ratio: 600 / 1158;
+  /* Aspect-ratio más alto para que la captura quepa entera */
+  aspect-ratio: 600 / 1300;
   margin: 0 auto;
   background: linear-gradient(145deg, #1c1a18 0%, #0a0908 100%);
   border-radius: 50px;
@@ -1459,9 +1459,9 @@ nav {
    el espacio del contenido */
 @media (max-width: 640px) {
   .iphone {
-    max-width: 240px !important;
-    border-radius: 38px !important;
-    padding: 8px !important;
+    max-width: 220px !important;
+    border-radius: 34px !important;
+    padding: 7px !important;
   }
   .iphone-screen {
     border-radius: 30px !important;
@@ -1496,9 +1496,9 @@ nav {
 /* En móviles muy estrechos */
 @media (max-width: 380px) {
   .iphone {
-    max-width: 215px !important;
-    border-radius: 34px !important;
-    padding: 7px !important;
+    max-width: 195px !important;
+    border-radius: 30px !important;
+    padding: 6px !important;
   }
   .iphone-screen {
     border-radius: 27px !important;
