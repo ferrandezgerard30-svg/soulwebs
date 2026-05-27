@@ -20,7 +20,9 @@ Soul Webs is a Spanish web design studio specializing in websites for local busi
 | `/servicios.html` | Plans (Esencial, Pro), bookings, additional services, hosting |
 | `/trabajos.html` | Real client work showcase |
 | `/sectores.html` | Sectors: hair salons + restaurants |
-| `/resenas.html` | Review form (rating + business name + comment) |
+| `/blog.html` | Blog index |
+| `/blog/<slug>.html` | Individual blog articles (5 published) |
+| `/opiniones.html` | Opinion form (rating + business name + comment) |
 | `/contacto.html` | WhatsApp, email, Instagram contact channels |
 | `/llms.txt` | LLM context file |
 | `/llms-full.txt` | Extended LLM context |

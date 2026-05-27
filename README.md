@@ -22,7 +22,7 @@ Estudio español de diseño web para peluquerías, barberías y restaurantes. Si
 ├── servicios.html       # Servicios y planes
 ├── trabajos.html        # Casos reales
 ├── sectores.html        # Peluquerías y restaurantes
-├── resenas.html         # Formulario de reseñas
+├── opiniones.html         # Formulario de reseñas
 ├── contacto.html        # WhatsApp / email / IG
 ├── logo.jpg             # Logo
 ├── robots.txt           # Permisos crawlers (todos los AI bots permitidos)

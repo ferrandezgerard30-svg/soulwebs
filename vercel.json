@@ -99,33 +99,63 @@
       "permanent": true
     },
     {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/resenas",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/resenas.html",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
       "source": "/resenyas",
-      "destination": "/resenas.html",
+      "destination": "/opiniones",
       "permanent": true
     },
     {
       "source": "/resenyas.html",
-      "destination": "/resenas.html",
+      "destination": "/opiniones",
       "permanent": true
     },
     {
       "source": "/rese\u00f1as",
-      "destination": "/resenas.html",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/rese\u00f1as.html",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/reviews",
+      "destination": "/opiniones",
+      "permanent": true
+    },
+    {
+      "source": "/testimonios",
+      "destination": "/opiniones",
       "permanent": true
     },
     {
       "source": "/services",
-      "destination": "/servicios.html",
+      "destination": "/servicios",
       "permanent": true
     },
     {
       "source": "/works",
-      "destination": "/trabajos.html",
+      "destination": "/trabajos",
       "permanent": true
     },
     {
       "source": "/contact",
-      "destination": "/contacto.html",
+      "destination": "/contacto",
       "permanent": true
     }
   ]
