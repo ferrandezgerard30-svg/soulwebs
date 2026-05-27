@@ -360,9 +360,13 @@ nav {
   background: var(--bone);
 }
 .iphone-content img {
+  position: absolute;
+  inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
   object-position: top center;
   background: var(--bone);
   display: block;
@@ -1819,7 +1823,17 @@ nav {
 .iphone-content {
   /* Flex fix: sin esto, hijos con contenido pueden desbordar */
   min-height: 0 !important;
+  max-height: 100% !important;
   overflow: hidden !important;
+  position: relative !important;
+}
+.iphone-content > img {
+  position: absolute !important;
+  inset: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: top center !important;
 }
 .iphone-urlbar,
 .iphone-statusbar {
