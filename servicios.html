@@ -366,8 +366,8 @@ nav {
   height: 100%;
   max-width: 100%;
   max-height: 100%;
-  object-fit: cover;
-  object-position: top center;
+  object-fit: contain;
+  object-position: center center;
   background: var(--bone);
   display: block;
 }
@@ -1827,13 +1827,14 @@ nav {
   overflow: hidden !important;
   position: relative !important;
 }
-.iphone-content > img {
+.iphone-content > img,
+.iphone-content img {
   position: absolute !important;
   inset: 0 !important;
   width: 100% !important;
   height: 100% !important;
-  object-fit: cover !important;
-  object-position: top center !important;
+  object-fit: contain !important;
+  object-position: center center !important;
 }
 .iphone-urlbar,
 .iphone-statusbar {
@@ -1848,8 +1849,8 @@ nav {
     max-width: 240px !important;
     border-radius: 38px !important;
     padding: 8px !important;
-    aspect-ratio: 600 / 1300 !important;
     overflow: hidden !important;
+    isolation: isolate !important;
   }
   .iphone-screen {
     border-radius: 30px !important;
@@ -1857,6 +1858,7 @@ nav {
     flex-direction: column !important;
     min-height: 0 !important;
     overflow: hidden !important;
+    isolation: isolate !important;
   }
   .iphone-content {
     flex: 1 1 0 !important;
@@ -1871,8 +1873,10 @@ nav {
     inset: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    object-fit: cover !important;
-    object-position: top center !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: contain !important;
+    object-position: center center !important;
   }
   .iphone-statusbar {
     height: 30px !important;
@@ -1903,8 +1907,8 @@ nav {
     max-width: 215px !important;
     border-radius: 34px !important;
     padding: 7px !important;
-    aspect-ratio: 600 / 1300 !important;
     overflow: hidden !important;
+    isolation: isolate !important;
   }
   .iphone-screen {
     border-radius: 27px !important;
@@ -1912,6 +1916,7 @@ nav {
     flex-direction: column !important;
     min-height: 0 !important;
     overflow: hidden !important;
+    isolation: isolate !important;
   }
   .iphone-content {
     flex: 1 1 0 !important;
@@ -1926,8 +1931,10 @@ nav {
     inset: 0 !important;
     width: 100% !important;
     height: 100% !important;
-    object-fit: cover !important;
-    object-position: top center !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    object-fit: contain !important;
+    object-position: center center !important;
   }
 }
 
