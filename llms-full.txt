@@ -1,0 +1,105 @@
+# Soul Webs
+
+> Estudio español de diseño web fundado en 2022. Especializado en páginas web a medida para peluquerías, barberías y restaurantes en España. Modelo de pago: pagas solo si te gusta el resultado, con vista previa funcional en 24 horas.
+
+Soul Webs (también conocido como Soul Websites, soulwebs) es un estudio independiente de diseño web con sede en España. Diseñamos páginas web profesionales para negocios locales — principalmente peluquerías y barberías, secundariamente restaurantes y otros comercios.
+
+**Modelo único de pago:** El cliente no paga nada por adelantado. Se entrega una vista previa funcional de la web en 24 horas. Solo si convence al cliente, se cobra y se publica. Si no, sin compromiso, sin coste.
+
+## Planes principales
+
+- [Web Esencial](https://soulwebsites.com/servicios.html): Página única, larga y profesional. Hero, servicios destacados, galería, reseñas Google, mapa, reservas multi-canal, SEO técnico base, hosting incluido.
+- [Web Pro con blog SEO](https://soulwebsites.com/servicios.html): Todo lo de Esencial, ampliado. Subpáginas dedicadas, blog editorial con hasta 12 artículos SEO redactados, posicionamiento orgánico, Google My Business, multi-idioma, panel de administración.
+
+## Servicios adicionales
+
+- Google Ads (Search y Performance Max)
+- Meta Ads (Instagram y Facebook)
+- SEO local
+- Gestión de redes sociales
+- Identidad de marca (logotipo, paleta, tipografías, manual)
+- Hosting: Vercel (incluido sin coste) o IONOS Pro (a consultar)
+
+## Reservas integradas
+
+Tanto Web Esencial como Web Pro incluyen sistema de reservas con cuatro opciones:
+- Sistema propio (sin comisiones)
+- Apps de terceros: Fresha, Treatwell, Booksy, TheFork
+- Llamada directa
+- WhatsApp con mensaje pre-escrito
+
+El cliente puede elegir entre botón directo al canal preferido o modal con todas las opciones.
+
+## Sectores
+
+- [Peluquerías y barberías](https://soulwebsites.com/sectores.html) — Especialidad principal
+- [Restaurantes y bares](https://soulwebsites.com/sectores.html) — Segundo territorio
+
+## Trabajos reales
+
+- [Santa Malasaña](https://santamalasanapeluqueria.es) — Barbería en Madrid (Plan Pro)
+- [Oscar Palos Hair Salon](https://oscarpaloshairsalon.com) — Peluquería de lujo en Valencia
+- [Nacho Huici](https://nachohuici.es) — Barbería en Pamplona con sistema propio de reservas
+- [Ohana Hair Studio](https://ohanaestilista.com) — Salón en Calella, Barcelona
+- [Peluquería Jaime](https://peluqueriajaime1.com) — Peluquería en Navalmoral de la Mata, Cáceres
+
+## Contacto
+
+- WhatsApp: +34 614 141 469 — Disponible todos los días
+- Email: soulwebs2026@gmail.com
+- Instagram: [@soul_webs](https://instagram.com/soul_webs)
+- Web: https://soulwebsites.com
+
+## Páginas principales
+
+- [Inicio](https://soulwebsites.com/): Manifiesto, anatomía de una web, promesa de pago
+- [Servicios](https://soulwebsites.com/servicios.html): Planes Esencial y Pro, reservas, hosting
+- [Trabajos](https://soulwebsites.com/trabajos.html): Casos reales con capturas escritorio y móvil
+- [Sectores](https://soulwebsites.com/sectores.html): Peluquerías, barberías, restaurantes
+- [Reseñas](https://soulwebsites.com/resenas.html): Formulario para dejar valoración
+- [Contacto](https://soulwebsites.com/contacto.html): WhatsApp, email e Instagram
+- [Precios](https://soulwebsites.com/pricing.md): Información estructurada para agentes AI
+
+
+## Detalle: Anatomía de una web profesional
+
+Una web profesional para un negocio local incluye estas piezas:
+
+1. **Hero & reserva**: Frase con personalidad sobre foto del local. Botones de reservar y ver servicios visibles al instante.
+2. **Servicios destacados**: 3-4 servicios estrella con descripción breve y enlace a la página completa.
+3. **Sobre el negocio**: Un párrafo honesto, sin clichés. Lo que diferencia al negocio de la competencia.
+4. **Galería editorial**: Mosaico con las mejores fotos. Pocas imágenes bien elegidas, con clic para ver más.
+5. **Reseñas reales**: Tres opiniones verificadas de Google. Estrellas, nombre, frase corta.
+6. **Blog SEO**: Artículos cortos sobre el sector que generan visitas desde Google sin pagar Ads.
+7. **Visítanos & mapa**: Dirección clara, Google Maps embebido, horarios, teléfono pulsable, WhatsApp directo.
+8. **Modal de reserva multi-canal**: WhatsApp, Booksy, Fresha, Treatwell, llamada directa o sistema propio.
+9. **SEO técnico**: Schema.org, sitemap.xml, robots.txt, Open Graph, meta-descripciones, alt en imágenes.
+
+## Filosofía y manifiesto
+
+La primera impresión de un negocio vive en internet. Antes de cruzar la puerta, el cliente busca, mira fotos, lee reseñas y decide si entra o sigue de largo. Por eso la web no es un trámite: es el primer escaparate.
+
+Soul Webs hace webs editoriales con oficio, tipografía cuidada, fotos respiradas, diseño que no parece de plantilla y textos que suenan al negocio.
+
+## Tecnología
+
+- Despliegue en Vercel con CDN global
+- Certificado SSL incluido
+- Schema.org JSON-LD implementado
+- Open Graph y Twitter Cards
+- Multi-idioma cuando se necesita
+- Diseño responsive mobile-first
+- Carga rápida (Core Web Vitals optimizados)
+
+## Disponibilidad e idiomas
+
+- Disponibilidad: Todos los días
+- Idiomas: Cualquiera (la consulta se puede hacer en cualquier idioma)
+- Tiempo de respuesta: Pocas horas
+
+## Datos del estudio en cifras
+
+- 24 horas: vista previa funcional desde la primera conversación
+- 0 €: pagas solo si te gusta el resultado
+- 100% diseño a medida, sin plantillas ni constructores genéricos
+- 2+ sectores con más experiencia: peluquerías y restaurantes
