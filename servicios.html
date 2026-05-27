@@ -1870,6 +1870,45 @@ nav {
     border-radius: 27px !important;
   }
 }
+
+/* ═══════════════════════════════════════════════════════════
+   iPhone DENTRO de reservas-example-visuals (móvil)
+   El que muestra el sistema de reservas Nacho Huici
+   El contenedor padre es un grid 2 col → 1fr en móvil, 
+   sin padding lateral → el iPhone toca los bordes y la urlbar
+   se sale visualmente. Fix: padding + max-width estricto + 
+   centrar
+   ═══════════════════════════════════════════════════════════ */
+@media (max-width: 1024px) {
+  .reservas-example-visuals {
+    padding: 0 !important;
+  }
+}
+@media (max-width: 640px) {
+  .reservas-example-visuals {
+    padding: 16px 24px 8px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 32px !important;
+  }
+  .reservas-example-visuals > * {
+    width: 100% !important;
+    max-width: 320px !important;
+    margin: 0 auto !important;
+  }
+  .reservas-example-visuals .iphone {
+    max-width: 220px !important;
+    width: 100% !important;
+  }
+  .reservas-example-visuals .browser-shot {
+    max-width: 320px !important;
+  }
+  .reservas-example-visuals .browser-shot img {
+    width: 100% !important;
+    height: auto !important;
+  }
+}
 </style>
 </head>
 <body data-page="servicios">
