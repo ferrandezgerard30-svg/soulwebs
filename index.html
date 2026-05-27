@@ -1764,6 +1764,245 @@ nav {
   display: none !important;
 }
 
+
+/* ═══════════════════════════════════════════════════════════
+   iPhone fix overflow móvil — URL bar saliéndose del bisel
+   ═══════════════════════════════════════════════════════════ */
+.iphone {
+  box-sizing: border-box !important;
+}
+.iphone-screen {
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+.iphone-content {
+  /* Flex fix: sin esto, hijos con contenido pueden desbordar */
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+.iphone-urlbar,
+.iphone-statusbar {
+  flex-shrink: 0 !important;
+}
+
+/* En móvil: el iPhone es muy pequeño, mejor reducir tamaños para evitar
+   que el chrome interno (statusbar 38px + urlbar 42px = 80px) se coma todo
+   el espacio del contenido */
+@media (max-width: 640px) {
+  .iphone {
+    max-width: 240px !important;
+    border-radius: 38px !important;
+    padding: 8px !important;
+  }
+  .iphone-screen {
+    border-radius: 30px !important;
+  }
+  .iphone-statusbar {
+    height: 30px !important;
+  }
+  .iphone-island {
+    width: 30% !important;
+    height: 18px !important;
+    top: 6px !important;
+  }
+  .iphone-urlbar {
+    padding: 5px 8px 9px !important;
+  }
+  .iphone-urlbar .urlbar-btn {
+    width: 17px !important;
+    height: 17px !important;
+  }
+  .iphone-urlbar .urlbar-domain {
+    font-size: 8.5px !important;
+    padding: 3px 8px !important;
+    min-height: 17px !important;
+  }
+}
+
+/* En móviles muy estrechos */
+@media (max-width: 380px) {
+  .iphone {
+    max-width: 215px !important;
+    border-radius: 34px !important;
+    padding: 7px !important;
+  }
+  .iphone-screen {
+    border-radius: 27px !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════════════════
+   INDEX móvil — refinamiento above-the-fold (Emil-style)
+   Custom easing curves para feel intencional
+   ═══════════════════════════════════════════════════════════ */
+:root {
+  --ease-out-emil: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* HERO TITLE — animación más punch con custom easing */
+.hero-title .line span {
+  animation: revealUpEmil 1s var(--ease-out-emil) both !important;
+}
+.hero-title .line:nth-child(2) span { animation-delay: 120ms !important; }
+.hero-title .line:nth-child(3) span { animation-delay: 240ms !important; }
+
+@keyframes revealUpEmil {
+  from { transform: translateY(110%); opacity: 1; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* HERO BOTTOM — fade-up suave después del título */
+.hero-bottom {
+  animation: fadeUpEmil 800ms 480ms var(--ease-out-emil) both !important;
+}
+
+/* HERO ASIDE — fade-up stagger */
+.hero-aside {
+  animation: fadeUpEmil 800ms 640ms var(--ease-out-emil) both !important;
+}
+.hero-aside-card {
+  opacity: 0;
+  animation: fadeUpCardEmil 600ms var(--ease-out-emil) both;
+}
+.hero-aside-card:nth-child(1) { animation-delay: 700ms; }
+.hero-aside-card:nth-child(2) { animation-delay: 780ms; }
+.hero-aside-card:nth-child(3) { animation-delay: 860ms; }
+
+@keyframes fadeUpEmil {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeUpCardEmil {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* BUTTON PRESS feedback (Emil: buttons must feel responsive) */
+.btn-primary {
+  transition: background 200ms var(--ease-out-emil), color 200ms var(--ease-out-emil), transform 100ms var(--ease-out-emil) !important;
+}
+.btn-primary:active {
+  transform: scale(0.97) !important;
+}
+
+/* En móvil: convertir hero-aside en CHIPS horizontales scrollables 
+   Mejor uso del espacio + más editorial */
+@media (max-width: 640px) {
+  .hero {
+    padding-top: 88px !important;
+    gap: 32px !important;
+    min-height: auto !important;
+  }
+  
+  .hero-title {
+    font-size: clamp(48px, 14vw, 72px) !important;
+    margin-bottom: 28px !important;
+    line-height: 0.92 !important;
+  }
+  
+  .hero-bottom p {
+    font-size: 16.5px !important;
+    margin-bottom: 24px !important;
+    line-height: 1.55 !important;
+  }
+  
+  .hero-cta-group {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 12px !important;
+  }
+  
+  .btn-primary {
+    justify-content: center !important;
+    padding: 16px 24px !important;
+    min-height: 52px !important;
+    border-radius: 100px !important;
+    font-size: 14.5px !important;
+    font-weight: 500 !important;
+  }
+  
+  /* btn-text más sutil en móvil — solo subrayado, sin border-top */
+  .btn-text {
+    text-align: center !important;
+    padding: 8px 0 !important;
+    border: none !important;
+    border-bottom: 1px solid var(--line-strong) !important;
+    width: fit-content !important;
+    margin: 4px auto 0 !important;
+    color: var(--ebony-soft) !important;
+    transition: color 200ms var(--ease-out-emil), border-color 200ms var(--ease-out-emil) !important;
+  }
+  .btn-text:hover {
+    color: var(--ebony) !important;
+    border-color: var(--ebony) !important;
+  }
+  
+  /* CHIPS horizontales scrollables — más editorial que cards apiladas */
+  .hero-aside {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 12px !important;
+    margin: 0 -24px !important;
+    padding: 0 24px 8px !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    scroll-snap-type: x mandatory !important;
+    -webkit-overflow-scrolling: touch !important;
+    scrollbar-width: none !important;
+  }
+  .hero-aside::-webkit-scrollbar { display: none; }
+  
+  .hero-aside-card {
+    flex-shrink: 0 !important;
+    min-width: 220px !important;
+    max-width: 240px !important;
+    background: var(--paper) !important;
+    border: 1px solid var(--line) !important;
+    border-radius: 12px !important;
+    padding: 18px 18px 16px !important;
+    scroll-snap-align: start !important;
+  }
+  .hero-aside-card .label {
+    margin-bottom: 8px !important;
+    font-size: 9px !important;
+    letter-spacing: 0.16em !important;
+  }
+  .hero-aside-card .value {
+    font-size: 22px !important;
+    line-height: 1.1 !important;
+  }
+}
+
+/* En móviles muy estrechos: chips un poco más pequeñas */
+@media (max-width: 380px) {
+  .hero-title { font-size: 44px !important; }
+  .hero-aside-card {
+    min-width: 200px !important;
+    padding: 16px !important;
+  }
+  .hero-aside-card .value { font-size: 20px !important; }
+}
+
+/* Indicador sutil de que hay scroll horizontal */
+@media (max-width: 640px) {
+  .hero-aside::after {
+    content: '';
+    flex-shrink: 0;
+    width: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-title .line span,
+  .hero-bottom,
+  .hero-aside,
+  .hero-aside-card {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
 </style>
 </head>
 <body data-page="inicio">

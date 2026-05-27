@@ -339,6 +339,109 @@ footer {
 }
 </style>
 
+<style id="blog-animations">
+/* ═══════════════════════════════════════════════════════════
+   BLOG INDEX — animaciones de entrada (Emil-style)
+   Custom easing, stagger en cards
+   ═══════════════════════════════════════════════════════════ */
+:root {
+  --ease-out-emil: cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+/* Hero h1: fade-up con stagger por línea (similar al index) */
+.blog-hero .breadcrumb {
+  animation: blogFadeUp 700ms var(--ease-out-emil) both;
+}
+.blog-hero h1 {
+  animation: blogTitleReveal 900ms 120ms var(--ease-out-emil) both;
+  opacity: 0;
+}
+.blog-hero .lead {
+  animation: blogFadeUp 800ms 320ms var(--ease-out-emil) both;
+  opacity: 0;
+}
+.blog-tag {
+  animation: blogFadeUp 600ms 460ms var(--ease-out-emil) both;
+  opacity: 0;
+}
+
+@keyframes blogFadeUp {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes blogTitleReveal {
+  from { opacity: 0; transform: translateY(28px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Blog cards: stagger fade-up */
+.blog-card {
+  opacity: 0;
+  animation: blogCardEnter 700ms var(--ease-out-emil) both;
+  transition: 
+    background 320ms var(--ease-out-emil),
+    color 320ms var(--ease-out-emil),
+    transform 280ms var(--ease-out-emil),
+    box-shadow 280ms var(--ease-out-emil) !important;
+}
+.blog-card:nth-child(1) { animation-delay: 540ms; }
+.blog-card:nth-child(2) { animation-delay: 620ms; }
+.blog-card:nth-child(3) { animation-delay: 700ms; }
+.blog-card:nth-child(4) { animation-delay: 780ms; }
+.blog-card:nth-child(5) { animation-delay: 860ms; }
+.blog-card:nth-child(6) { animation-delay: 940ms; }
+
+@keyframes blogCardEnter {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Hover refinado en cards */
+.blog-card:hover {
+  transform: translateY(-6px) !important;
+}
+.blog-card:active {
+  transform: translateY(-3px) scale(0.99) !important;
+}
+
+/* Flecha en card: rotación on hover con custom easing */
+.blog-card-arrow {
+  transition: 
+    background 280ms var(--ease-out-emil),
+    border-color 280ms var(--ease-out-emil),
+    transform 280ms var(--ease-out-emil) !important;
+}
+
+/* Internal h2 inside card: smooth color transition */
+.blog-card h2,
+.blog-card h2 em,
+.blog-card-excerpt,
+.blog-card-top,
+.blog-card-foot {
+  transition: color 320ms var(--ease-out-emil), border-color 320ms var(--ease-out-emil) !important;
+}
+
+/* En móvil: animación de cards sin stagger tan largo (la pantalla cabe menos) */
+@media (max-width: 640px) {
+  .blog-card:nth-child(1) { animation-delay: 480ms; }
+  .blog-card:nth-child(2) { animation-delay: 540ms; }
+  .blog-card:nth-child(3) { animation-delay: 600ms; }
+  .blog-card:nth-child(4) { animation-delay: 660ms; }
+  .blog-card:nth-child(5) { animation-delay: 720ms; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blog-hero .breadcrumb,
+  .blog-hero h1,
+  .blog-hero .lead,
+  .blog-tag,
+  .blog-card {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+</style>
 </head>
 <body data-page="blog">
 <nav>

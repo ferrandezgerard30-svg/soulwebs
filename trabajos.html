@@ -1417,6 +1417,72 @@ nav {
   display: none !important;
 }
 
+
+/* ═══════════════════════════════════════════════════════════
+   iPhone fix overflow móvil — URL bar saliéndose del bisel
+   ═══════════════════════════════════════════════════════════ */
+.iphone {
+  box-sizing: border-box !important;
+}
+.iphone-screen {
+  overflow: hidden !important;
+  box-sizing: border-box !important;
+}
+.iphone-content {
+  /* Flex fix: sin esto, hijos con contenido pueden desbordar */
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+.iphone-urlbar,
+.iphone-statusbar {
+  flex-shrink: 0 !important;
+}
+
+/* En móvil: el iPhone es muy pequeño, mejor reducir tamaños para evitar
+   que el chrome interno (statusbar 38px + urlbar 42px = 80px) se coma todo
+   el espacio del contenido */
+@media (max-width: 640px) {
+  .iphone {
+    max-width: 240px !important;
+    border-radius: 38px !important;
+    padding: 8px !important;
+  }
+  .iphone-screen {
+    border-radius: 30px !important;
+  }
+  .iphone-statusbar {
+    height: 30px !important;
+  }
+  .iphone-island {
+    width: 30% !important;
+    height: 18px !important;
+    top: 6px !important;
+  }
+  .iphone-urlbar {
+    padding: 5px 8px 9px !important;
+  }
+  .iphone-urlbar .urlbar-btn {
+    width: 17px !important;
+    height: 17px !important;
+  }
+  .iphone-urlbar .urlbar-domain {
+    font-size: 8.5px !important;
+    padding: 3px 8px !important;
+    min-height: 17px !important;
+  }
+}
+
+/* En móviles muy estrechos */
+@media (max-width: 380px) {
+  .iphone {
+    max-width: 215px !important;
+    border-radius: 34px !important;
+    padding: 7px !important;
+  }
+  .iphone-screen {
+    border-radius: 27px !important;
+  }
+}
 </style>
 </head>
 <body data-page="trabajos">
