@@ -1502,12 +1502,12 @@ nav {
     @media (max-width: 768px) {
           .iphone,
           .trabajo-shot-movil .iphone {
-                  max-width: 230px !important;
-                  width: 100% !important;
-                  margin: 0 auto !important;
-                  padding: 8px !important;
-                  border-radius: 38px !important;
-                  aspect-ratio: auto !important;
+                  max-width: 280px !important;
+          width: 100% !important;
+          margin: 0 auto !important;
+          padding: 10px !important;
+          border-radius: 46px !important;
+          aspect-ratio: 9 / 19.5 !important;
                   box-sizing: border-box !important;
                   background: #1a1816 !important;
                   box-shadow: 0 14px 32px rgba(0,0,0,0.25), inset 0 0 0 1px #3a3530 !important;
@@ -1516,23 +1516,24 @@ nav {
                   display: block !important;
           }
           .iphone-screen {
-                  border-radius: 30px !important;
-                  overflow: hidden !important;
-                  position: relative !important;
-                  display: block !important;
-                  aspect-ratio: 9 / 19 !important;
-                  background: #000 !important;
+                  border-radius: 36px !important;
+          overflow: hidden !important;
+          position: relative !important;
+          display: flex !important;
+          flex-direction: column !important;
+          aspect-ratio: auto !important;
+          background: var(--bone) !important;
           }
           .iphone-statusbar .time,
           .iphone-statusbar .indicators {
                   display: none !important;
           }
           .iphone-content {
-                  position: absolute !important;
-                  inset: 0 !important;
-                  width: 100% !important;
-                  height: 100% !important;
-                  overflow: hidden !important;
+          position: relative !important;
+          flex: 1 1 auto !important;
+          width: 100% !important;
+          min-height: 0 !important;
+          overflow: hidden !important;
           }
           .iphone-content > img,
           .iphone-content img {
@@ -1553,12 +1554,12 @@ nav {
     @media (max-width: 380px) {
           .iphone,
           .trabajo-shot-movil .iphone {
-                  max-width: 200px !important;
-                  padding: 7px !important;
-                  border-radius: 32px !important;
+                  max-width: 240px !important;
+          padding: 9px !important;
+          border-radius: 40px !important;
           }
           .iphone-screen {
-                  border-radius: 26px !important;
+                  border-radius: 30px !important;
           }
     }
 </style>
