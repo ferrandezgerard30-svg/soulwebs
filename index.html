@@ -575,7 +575,11 @@ footer {
   .iphone-statusbar .time { font-size: 10px; }
   .iphone-urlbar .urlbar-domain { font-size: 8.5px; }
 }
-</style>
+
+    @media (max-width: 640px) {
+      .case-desc { display: none !important; }
+    }
+  </style>
 <style>
 .hero {
   min-height: 100vh;
@@ -2178,8 +2182,8 @@ nav {
       <div>
         <div class="case-label">— Caso de estudio</div>
         <h3>Santa Malasaña<br><em>Barbería & Estética</em></h3>
-        <p>Una barbería con personalidad fuerte que necesitaba transmitir eso mismo online. La web cubre <strong>todas las piezas que hacen falta</strong> para que un cliente nuevo se decida a entrar.</p>
-        <p>Hero con frase de marca, blog SEO con artículos sobre cortes y cuidado de barba, galería editorial, reseñas reales de Google, mapa, horarios y modal multi-canal para reservar. Bilingüe ES/EN.</p>
+        <p class="case-desc">Una barbería con personalidad fuerte que necesitaba transmitir eso mismo online. La web cubre <strong>todas las piezas que hacen falta</strong> para que un cliente nuevo se decida a entrar.</p>
+        <p class="case-desc">Hero con frase de marca, blog SEO con artículos sobre cortes y cuidado de barba, galería editorial, reseñas reales de Google, mapa, horarios y modal multi-canal para reservar. Bilingüe ES/EN.</p>
         <a href="https://santamalasanapeluqueria.es" target="_blank" rel="noopener" class="anatomy-case-intro-link">
           Visitar web en vivo
           <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8H14M14 8L8 2M14 8L8 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
