@@ -16,7 +16,8 @@ Soul Webs is a Spanish web design studio specializing in websites for local busi
 
 | URL | Purpose |
 |-----|---------|
-| `/` | English homepage (US, local SEO first) |
+| `/` | English homepage (US) — translated from the Spanish one |
+| `/services`, `/work`, `/sectors`, `/reviews`, `/contact` | English versions of the Spanish subpages |
 | `/es` | Spanish homepage (manifesto, anatomy of a web, promise) |
 | `/legal`, `/privacy`, `/accessibility` | Legal notice, privacy & cookie policy, accessibility statement (EN + ES) |
 | `/servicios.html` | Plans (Esencial, Pro), bookings, additional services, hosting |

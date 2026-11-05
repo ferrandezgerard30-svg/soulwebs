@@ -1,15 +1,13 @@
 # Soul Webs
 
-> Soul Webs is an independent local SEO and web design studio based in Spain who works with local businesses in the United States (English) and Spain (Spanish). Main service: getting local businesses found on Google (Google Business Profile, Google Maps, local SEO). Websites are an add-on.
+> Soul Webs is an independent web design studio based in Spain that designs custom websites for hair salons, barbershops and restaurants in the United States (English) and Spain (Spanish). Free working preview in 24 hours — clients pay only if they love the result.
 
 ## English (United States) — https://soulwebsites.com/
 
-- Local SEO for hair salons, barbershops, beauty businesses, restaurants and other local service businesses.
-- Services: Google Business Profile setup and optimization; technical SEO audit (indexing, speed, Core Web Vitals, mobile, Schema.org); on-page SEO; citations (consistent name, address, phone on Yelp, Apple Maps, Bing, industry directories); monthly plain-English reports.
-- Add-on: custom websites built to rank, deployed on Vercel with SSL and CDN; bilingual English/Spanish on request; working preview within 24 hours.
-- Process: free Google snapshot → short talk → fix the foundations (after a signed agreement) → monthly growth billed in USD.
-- No ranking guarantees. No fake reviews, review gating or link buying. Clients keep ownership of their Google Business Profile, Search Console, Analytics and domain.
-- Not offered in the US: paid ads, social media management, lead generation.
+- [Services](https://soulwebsites.com/services): Essential Website (one complete page) and Pro Website (subpages + SEO blog with up to 12 articles). Built-in booking in both plans: custom system, third-party apps (Booksy, Fresha, Vagaro, Square, OpenTable, Resy), phone call or WhatsApp. Extra services: local SEO, Google Ads, Meta Ads, social media, brand identity. Hosting on Vercel included; premium hosting on request.
+- [Our work](https://soulwebsites.com/work): real client websites — Santa Malasaña, Oscar Palos Hair Salon, Nacho Huici, Ohana Hair Studio, Peluquería Jaime.
+- [Industries](https://soulwebsites.com/sectors): hair salons & barbershops (main), restaurants & bars.
+- [Reviews](https://soulwebsites.com/reviews) · [Contact](https://soulwebsites.com/contact)
 - Contact: soulwebs2026@gmail.com · WhatsApp +34 614 141 469 · Instagram @soul_webs
 - Legal: https://soulwebsites.com/legal · Privacy: https://soulwebsites.com/privacy
 

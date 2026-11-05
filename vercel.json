@@ -129,37 +129,12 @@
       "permanent": true
     },
     {
-      "source": "/reviews",
-      "destination": "/opiniones",
-      "permanent": true
-    },
-    {
       "source": "/testimonios",
       "destination": "/opiniones",
       "permanent": true
     },
     {
-      "source": "/services",
-      "destination": "/servicios",
-      "permanent": true
-    },
-    {
-      "source": "/works",
-      "destination": "/trabajos",
-      "permanent": true
-    },
-    {
-      "source": "/contact",
-      "destination": "/contacto",
-      "permanent": true
-    },
-    {
       "source": "/en",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/home-en",
       "destination": "/",
       "permanent": true
     },
@@ -204,13 +179,33 @@
       "permanent": true
     },
     {
+      "source": "/accesibilidad",
+      "destination": "/accessibility",
+      "permanent": true
+    },
+    {
+      "source": "/works",
+      "destination": "/work",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio",
+      "destination": "/work",
+      "permanent": true
+    },
+    {
+      "source": "/industries",
+      "destination": "/sectors",
+      "permanent": true
+    },
+    {
       "source": "/terms",
       "destination": "/legal",
       "permanent": true
     },
     {
-      "source": "/accesibilidad",
-      "destination": "/accessibility",
+      "source": "/testimonials",
+      "destination": "/reviews",
       "permanent": true
     }
   ]
