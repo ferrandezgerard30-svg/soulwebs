@@ -1,12 +1,12 @@
 {
   "name": "Soul Webs",
   "short_name": "Soul Webs",
-  "description": "Estudio español de diseño web para negocios locales — peluquerías, barberías y restaurantes.",
+  "description": "Soul Webs — local SEO and websites for local businesses.",
   "start_url": "/",
   "display": "browser",
   "background_color": "#F4F1EB",
   "theme_color": "#2A2622",
-  "lang": "es-ES",
+  "lang": "en-US",
   "icons": [
     {
       "src": "/favicon-16x16.png",

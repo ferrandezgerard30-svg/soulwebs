@@ -89,11 +89,6 @@
       "permanent": true
     },
     {
-      "source": "/inicio",
-      "destination": "/",
-      "permanent": true
-    },
-    {
       "source": "/index",
       "destination": "/",
       "permanent": true
@@ -124,12 +119,12 @@
       "permanent": true
     },
     {
-      "source": "/rese\u00f1as",
+      "source": "/reseñas",
       "destination": "/opiniones",
       "permanent": true
     },
     {
-      "source": "/rese\u00f1as.html",
+      "source": "/reseñas.html",
       "destination": "/opiniones",
       "permanent": true
     },
@@ -156,6 +151,66 @@
     {
       "source": "/contact",
       "destination": "/contacto",
+      "permanent": true
+    },
+    {
+      "source": "/en",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home-en",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/inicio",
+      "destination": "/es",
+      "permanent": true
+    },
+    {
+      "source": "/aviso-legal",
+      "destination": "/legal",
+      "permanent": true
+    },
+    {
+      "source": "/aviso-legal.html",
+      "destination": "/legal",
+      "permanent": true
+    },
+    {
+      "source": "/privacidad",
+      "destination": "/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/politica-de-privacidad",
+      "destination": "/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/cookies",
+      "destination": "/privacy#cookies",
+      "permanent": true
+    },
+    {
+      "source": "/politica-de-cookies",
+      "destination": "/privacy#cookies",
+      "permanent": true
+    },
+    {
+      "source": "/terms",
+      "destination": "/legal",
+      "permanent": true
+    },
+    {
+      "source": "/accesibilidad",
+      "destination": "/accessibility",
       "permanent": true
     }
   ]

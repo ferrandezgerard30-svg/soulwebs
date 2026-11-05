@@ -1,5 +1,5 @@
 # robots.txt for soulwebsites.com
-# Soul Webs — Estudio de diseño web
+# Soul Webs — Local SEO (EN) · Diseño web (ES)
 
 User-agent: *
 Allow: /

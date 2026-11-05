@@ -1,5 +1,20 @@
 # Soul Webs
 
+> Soul Webs is an independent local SEO and web design studio based in Spain who works with local businesses in the United States (English) and Spain (Spanish). Main service: getting local businesses found on Google (Google Business Profile, Google Maps, local SEO). Websites are an add-on.
+
+## English (United States) — https://soulwebsites.com/
+
+- Local SEO for hair salons, barbershops, beauty businesses, restaurants and other local service businesses.
+- Services: Google Business Profile setup and optimization; technical SEO audit (indexing, speed, Core Web Vitals, mobile, Schema.org); on-page SEO; citations (consistent name, address, phone on Yelp, Apple Maps, Bing, industry directories); monthly plain-English reports.
+- Add-on: custom websites built to rank, deployed on Vercel with SSL and CDN; bilingual English/Spanish on request; working preview within 24 hours.
+- Process: free Google snapshot → short talk → fix the foundations (after a signed agreement) → monthly growth billed in USD.
+- No ranking guarantees. No fake reviews, review gating or link buying. Clients keep ownership of their Google Business Profile, Search Console, Analytics and domain.
+- Not offered in the US: paid ads, social media management, lead generation.
+- Contact: soulwebs2026@gmail.com · WhatsApp +34 614 141 469 · Instagram @soul_webs
+- Legal: https://soulwebsites.com/legal · Privacy: https://soulwebsites.com/privacy
+
+## Español (España) — https://soulwebsites.com/es
+
 > Estudio español de diseño web fundado en 2022. Especializado en páginas web a medida para peluquerías, barberías y restaurantes en España. Modelo de pago: pagas solo si te gusta el resultado, con vista previa funcional en 24 horas.
 
 Soul Webs (también conocido como Soul Websites, soulwebs) es un estudio independiente de diseño web con sede en España. Diseñamos páginas web profesionales para negocios locales — principalmente peluquerías y barberías, secundariamente restaurantes y otros comercios.

@@ -8,15 +8,17 @@ Soul Webs is a Spanish web design studio specializing in websites for local busi
 
 - **Name:** Soul Webs (also: Soul Websites, soulwebs)
 - **Domain:** https://soulwebsites.com
-- **Founded:** 2022
+- **Country:** Spain (serving the US in English and Spain in Spanish)
 - **Country:** Spain
-- **Languages:** Spanish (primary), available in any language on request
+- **Languages:** English at `/` (US local SEO), Spanish at `/es`
 
 ## Site map
 
 | URL | Purpose |
 |-----|---------|
-| `/` | Homepage with manifesto, anatomy of a web, promise |
+| `/` | English homepage (US, local SEO first) |
+| `/es` | Spanish homepage (manifesto, anatomy of a web, promise) |
+| `/legal`, `/privacy`, `/accessibility` | Legal notice, privacy & cookie policy, accessibility statement (EN + ES) |
 | `/servicios.html` | Plans (Esencial, Pro), bookings, additional services, hosting |
 | `/trabajos.html` | Real client work showcase |
 | `/sectores.html` | Sectors: hair salons + restaurants |
