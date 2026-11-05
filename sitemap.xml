@@ -97,16 +97,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.soulwebsites.com/blog/cuanto-cuesta-pagina-web-peluqueria</loc>
-    <lastmod>2026-05-27</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://www.soulwebsites.com/blog/booksy-vs-fresha-vs-treatwell-comparativa</loc>
-    <lastmod>2026-05-27</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://www.soulwebsites.com/legal</loc>
     <lastmod>2026-11-05</lastmod>
     <priority>0.2</priority>
@@ -182,6 +172,38 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://www.soulwebsites.com/guides/own-website-or-booksy-fresha"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.soulwebsites.com/blog/web-propia-o-booksy-fresha-peluqueria"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.soulwebsites.com/guides/own-website-or-booksy-fresha"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.soulwebsites.com/guides/hair-salon-website-cost</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.soulwebsites.com/guides/hair-salon-website-cost"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.soulwebsites.com/blog/cuanto-cuesta-pagina-web-peluqueria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.soulwebsites.com/guides/hair-salon-website-cost"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.soulwebsites.com/blog/cuanto-cuesta-pagina-web-peluqueria</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.soulwebsites.com/guides/hair-salon-website-cost"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.soulwebsites.com/blog/cuanto-cuesta-pagina-web-peluqueria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.soulwebsites.com/guides/hair-salon-website-cost"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.soulwebsites.com/guides/booksy-vs-fresha-vs-vagaro</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.soulwebsites.com/guides/booksy-vs-fresha-vs-vagaro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.soulwebsites.com/blog/booksy-vs-fresha-vs-treatwell-comparativa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.soulwebsites.com/guides/booksy-vs-fresha-vs-vagaro"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.soulwebsites.com/blog/booksy-vs-fresha-vs-treatwell-comparativa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.soulwebsites.com/guides/booksy-vs-fresha-vs-vagaro"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.soulwebsites.com/blog/booksy-vs-fresha-vs-treatwell-comparativa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.soulwebsites.com/guides/booksy-vs-fresha-vs-vagaro"/>
     <lastmod>2026-11-05</lastmod>
     <priority>0.5</priority>
   </url>
