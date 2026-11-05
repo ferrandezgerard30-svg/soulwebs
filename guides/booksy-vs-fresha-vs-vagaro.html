@@ -40,6 +40,7 @@
 <link rel="preload" href="/fonts/fraunces-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/fonts/fonts.css">
 <link rel="stylesheet" href="/ui.css">
+<link rel="stylesheet" href="/nav.css">
 
 <style>
 :root {
@@ -519,40 +520,20 @@ details > p {
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.soulwebsites.com/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://www.soulwebsites.com/guides"}, {"@type": "ListItem", "position": 3, "name": "Booksy vs Fresha vs Vagaro: An Honest Comparison for US Barbershops & Salons (2026)", "item": "https://www.soulwebsites.com/guides/booksy-vs-fresha-vs-vagaro"}]}, {"@type": "BlogPosting", "headline": "Booksy vs Fresha vs Vagaro: An Honest Comparison for US Barbershops & Salons (2026)", "description": "Booksy, Fresha and Vagaro compared for US salons and barbershops in 2026: monthly prices, new-client fees, pros and cons, and which to choose for your size.", "inLanguage": "en-US", "datePublished": "2026-11-05", "dateModified": "2026-11-05", "mainEntityOfPage": "https://www.soulwebsites.com/guides/booksy-vs-fresha-vs-vagaro", "image": "https://www.soulwebsites.com/logo.jpg", "author": {"@type": "Organization", "name": "Soul Webs", "url": "https://www.soulwebsites.com/"}, "publisher": {"@id": "https://www.soulwebsites.com/#organization"}}]}</script>
 </head>
 <body data-page="blog">
-<nav>
-  <a href="/" class="logo" aria-label="Soul Webs — Home">
-    <img src="/img/logo-96.webp" width="96" height="96" decoding="async" alt="" class="logo-img">
-    <div class="logo-text">
-      <span class="name">Soul Webs</span>
-      <span class="est">Est. 2022</span>
-    </div>
-  </a>
-  <ul class="nav-links"><li><a href="/" class="">Home</a></li><li><a href="/services" class="">Services</a></li><li><a href="/work" class="">Work</a></li><li><a href="/sectors" class="">Industries</a></li><li><a href="/reviews" class="">Reviews</a></li><li><a href="/guides" class="active">Blog</a></li><li><a href="/contact" class="">Contact</a></li></ul>
-  <div class="lang-switch" style="margin-right:12px" role="group" aria-label="Language"><a href="/guides/booksy-vs-fresha-vs-vagaro" aria-current="true" lang="en">EN</a><a href="/blog/booksy-vs-fresha-vs-treatwell-comparativa" hreflang="es" lang="es">ES</a></div>
-  <a href="mailto:soulwebs2026@gmail.com?subject=Free%20website%20consultation" class="nav-cta">
-    <span class="dot" aria-hidden="true"></span>
-    Free consultation
-  </a>
-  <button class="nav-mobile-btn" aria-label="Open menu" onclick="document.getElementById('drawer').classList.add('open'); document.getElementById('backdrop').classList.add('open');">
-    <span></span><span></span><span></span>
-  </button>
-</nav>
-<div class="drawer-backdrop" id="backdrop" onclick="document.getElementById('drawer').classList.remove('open'); this.classList.remove('open');"></div>
-<aside class="mobile-drawer" id="drawer" aria-label="Main menu">
-  <div class="drawer-head">
-    <div class="drawer-brand">
-      <img src="/img/logo-96.webp" width="96" height="96" decoding="async" alt="">
-      <span class="drawer-brand-text">Soul Webs</span>
-    </div>
-    <button class="close" aria-label="Close" onclick="document.getElementById('drawer').classList.remove('open'); document.getElementById('backdrop').classList.remove('open');">
-      <svg width="12" height="12" viewBox="0 0 14 14" fill="none"><path d="M1 1L13 13M13 1L1 13" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-    </button>
+<header class="sw-nav">
+  <a href="/" class="sw-brand" aria-label="Soul Webs — Home"><img src="/img/logo-96.webp" width="96" height="96" alt=""><span>Soul Webs</span></a>
+  <div class="sw-links" role="navigation" aria-label="Main"><a href="/">Home</a><a href="/services">Services</a><a href="/work">Work</a><a href="/sectors">Industries</a><a href="/guides" aria-current="page">Guides</a><a href="/reviews">Reviews</a><a href="/contact">Contact</a></div>
+  <div class="sw-right">
+    <div class="lang-switch" role="group" aria-label="Language"><a href="/guides/booksy-vs-fresha-vs-vagaro" aria-current="true" lang="en">EN</a><a href="/blog/booksy-vs-fresha-vs-treatwell-comparativa" hreflang="es" lang="es">ES</a></div>
+    <a href="mailto:soulwebs2026@gmail.com?subject=Free%20Google%20snapshot" class="sw-cta">Free snapshot</a>
+    <button class="sw-menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span></button>
   </div>
-  <ul><li><a href="/" class=""><span>Home</span></a></li><li><a href="/services" class=""><span>Services</span></a></li><li><a href="/work" class=""><span>Work</span></a></li><li><a href="/sectors" class=""><span>Industries</span></a></li><li><a href="/reviews" class=""><span>Reviews</span></a></li><li><a href="/guides" class="active"><span>Blog</span></a></li><li><a href="/contact" class=""><span>Contact</span></a></li></ul>
-  <div class="drawer-cta">
-    <a href="mailto:soulwebs2026@gmail.com?subject=Free%20website%20consultation">Email us — free consultation</a>
-    <a href="https://instagram.com/soul_webs" class="outline" target="_blank" rel="noopener">Message on Instagram</a>
-  </div>
+</header>
+<div class="sw-backdrop" id="backdrop"></div>
+<aside class="sw-sheet" id="drawer" aria-label="Menu">
+  <div class="sw-sheet-links" role="navigation" aria-label="Mobile"><a href="/">Home</a><a href="/services">Services</a><a href="/work">Work</a><a href="/sectors">Industries</a><a href="/guides" aria-current="page">Guides</a><a href="/reviews">Reviews</a><a href="/contact">Contact</a></div>
+  <a href="mailto:soulwebs2026@gmail.com?subject=Free%20Google%20snapshot" class="sw-btn dark">Get a free Google snapshot</a>
+  <a href="https://instagram.com/soul_webs" target="_blank" rel="noopener" class="sw-btn line">Message us on Instagram</a>
 </aside>
 
 <header class="article-hero">
@@ -560,7 +541,7 @@ details > p {
     <div class="article-breadcrumb">
       <a href="/">Home</a>
       <span class="sep">/</span>
-      <a href="/guides">Blog</a>
+      <a href="/guides">Guides</a>
       <span class="sep">/</span>
       <span class="current">Booksy vs Fresha vs Vagaro</span>
     </div>
@@ -828,5 +809,6 @@ details > p {
   </div>
 </footer>
 <script src="/contact.js" defer></script>
+<script src="/nav.js" defer></script>
 </body>
 </html>
