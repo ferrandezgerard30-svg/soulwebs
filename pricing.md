@@ -1,7 +1,7 @@
 # Pricing — Soul Webs
 
 **Última actualización:** 2026-05-27
-**Web:** https://soulwebsites.com
+**Web:** https://www.soulwebsites.com
 **Contacto:** WhatsApp +34 614 141 469 · soulwebs2026@gmail.com
 
 ## Modelo de pago

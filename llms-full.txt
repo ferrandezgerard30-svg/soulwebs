@@ -8,8 +8,8 @@ Soul Webs (también conocido como Soul Websites, soulwebs) es un estudio indepen
 
 ## Planes principales
 
-- [Web Esencial](https://soulwebsites.com/servicios): Página única, larga y profesional. Hero, servicios destacados, galería, reseñas Google, mapa, reservas multi-canal, SEO técnico base, hosting incluido.
-- [Web Pro con blog SEO](https://soulwebsites.com/servicios): Todo lo de Esencial, ampliado. Subpáginas dedicadas, blog editorial con hasta 12 artículos SEO redactados, posicionamiento orgánico, Google My Business, multi-idioma, panel de administración.
+- [Web Esencial](https://www.soulwebsites.com/servicios): Página única, larga y profesional. Hero, servicios destacados, galería, reseñas Google, mapa, reservas multi-canal, SEO técnico base, hosting incluido.
+- [Web Pro con blog SEO](https://www.soulwebsites.com/servicios): Todo lo de Esencial, ampliado. Subpáginas dedicadas, blog editorial con hasta 12 artículos SEO redactados, posicionamiento orgánico, Google My Business, multi-idioma, panel de administración.
 
 ## Servicios adicionales
 
@@ -32,8 +32,8 @@ El cliente puede elegir entre botón directo al canal preferido o modal con toda
 
 ## Sectores
 
-- [Peluquerías y barberías](https://soulwebsites.com/sectores) — Especialidad principal
-- [Restaurantes y bares](https://soulwebsites.com/sectores) — Segundo territorio
+- [Peluquerías y barberías](https://www.soulwebsites.com/sectores) — Especialidad principal
+- [Restaurantes y bares](https://www.soulwebsites.com/sectores) — Segundo territorio
 
 ## Trabajos reales
 
@@ -48,17 +48,17 @@ El cliente puede elegir entre botón directo al canal preferido o modal con toda
 - WhatsApp: +34 614 141 469 — Disponible todos los días
 - Email: soulwebs2026@gmail.com
 - Instagram: [@soul_webs](https://instagram.com/soul_webs)
-- Web: https://soulwebsites.com
+- Web: https://www.soulwebsites.com
 
 ## Páginas principales
 
-- [Inicio](https://soulwebsites.com/): Manifiesto, anatomía de una web, promesa de pago
-- [Servicios](https://soulwebsites.com/servicios): Planes Esencial y Pro, reservas, hosting
-- [Trabajos](https://soulwebsites.com/trabajos): Casos reales con capturas escritorio y móvil
-- [Sectores](https://soulwebsites.com/sectores): Peluquerías, barberías, restaurantes
-- [Opiniones](https://soulwebsites.com/opiniones): Formulario para dejar valoración
-- [Contacto](https://soulwebsites.com/contacto): WhatsApp, email e Instagram
-- [Precios](https://soulwebsites.com/pricing.md): Información estructurada para agentes AI
+- [Inicio](https://www.soulwebsites.com/): Manifiesto, anatomía de una web, promesa de pago
+- [Servicios](https://www.soulwebsites.com/servicios): Planes Esencial y Pro, reservas, hosting
+- [Trabajos](https://www.soulwebsites.com/trabajos): Casos reales con capturas escritorio y móvil
+- [Sectores](https://www.soulwebsites.com/sectores): Peluquerías, barberías, restaurantes
+- [Opiniones](https://www.soulwebsites.com/opiniones): Formulario para dejar valoración
+- [Contacto](https://www.soulwebsites.com/contacto): WhatsApp, email e Instagram
+- [Precios](https://www.soulwebsites.com/pricing.md): Información estructurada para agentes AI
 
 
 ## Detalle: Anatomía de una web profesional
@@ -107,8 +107,8 @@ Soul Webs hace webs editoriales con oficio, tipografía cuidada, fotos respirada
 
 ## Blog
 
-- [Cuánto cuesta una página web para una peluquería](https://soulwebsites.com/blog/cuanto-cuesta-pagina-web-peluqueria) — precios reales por modelo en 2026
-- [Booksy vs Fresha vs Treatwell](https://soulwebsites.com/blog/booksy-vs-fresha-vs-treatwell-comparativa) — comparativa de plataformas de reservas
-- [SEO local para peluquerías](https://soulwebsites.com/blog/seo-local-peluqueria-aparecer-primero-google) — cómo aparecer primero en Google
-- [¿Web propia o solo Booksy/Fresha?](https://soulwebsites.com/blog/web-propia-o-booksy-fresha-peluqueria) — qué necesita realmente tu peluquería
-- [7 errores en webs de restaurantes](https://soulwebsites.com/blog/errores-web-restaurantes-pierden-reservas) — que hacen perder reservas
+- [Cuánto cuesta una página web para una peluquería](https://www.soulwebsites.com/blog/cuanto-cuesta-pagina-web-peluqueria) — precios reales por modelo en 2026
+- [Booksy vs Fresha vs Treatwell](https://www.soulwebsites.com/blog/booksy-vs-fresha-vs-treatwell-comparativa) — comparativa de plataformas de reservas
+- [SEO local para peluquerías](https://www.soulwebsites.com/blog/seo-local-peluqueria-aparecer-primero-google) — cómo aparecer primero en Google
+- [¿Web propia o solo Booksy/Fresha?](https://www.soulwebsites.com/blog/web-propia-o-booksy-fresha-peluqueria) — qué necesita realmente tu peluquería
+- [7 errores en webs de restaurantes](https://www.soulwebsites.com/blog/errores-web-restaurantes-pierden-reservas) — que hacen perder reservas

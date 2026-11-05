@@ -7,7 +7,7 @@ Soul Webs is a Spanish web design studio specializing in websites for local busi
 ## Identity
 
 - **Name:** Soul Webs (also: Soul Websites, soulwebs)
-- **Domain:** https://soulwebsites.com
+- **Domain:** https://www.soulwebsites.com
 - **Country:** Spain (serving the US in English and Spain in Spanish)
 - **Country:** Spain
 - **Languages:** English at `/` (US local SEO), Spanish at `/es`

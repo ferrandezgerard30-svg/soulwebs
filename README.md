@@ -2,7 +2,7 @@
 
 Estudio español de diseño web para peluquerías, barberías y restaurantes. Sitio oficial.
 
-🌐 https://soulwebsites.com
+🌐 https://www.soulwebsites.com
 📱 WhatsApp +34 614 141 469
 ✉️ soulwebs2026@gmail.com
 📷 [@soul_webs](https://instagram.com/soul_webs)
