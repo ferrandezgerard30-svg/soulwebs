@@ -1985,6 +1985,21 @@ nav {
           }
     }
   </style>
+<style id="svc-fixes">
+.reservas-example{align-items:center}
+.nx-visual{position:relative;padding:0 14% 34px 0;width:100%}
+.nx-browser{border-radius:14px;overflow:hidden;border:1px solid var(--line);background:#fff;box-shadow:0 30px 60px -36px rgba(42,38,34,.4)}
+.nx-bar{display:flex;align-items:center;gap:6px;padding:9px 12px;background:var(--bone-warm);border-bottom:1px solid var(--line)}
+.nx-bar i{width:8px;height:8px;border-radius:50%;background:var(--pearl)}
+.nx-bar span{margin-left:8px;font:11px var(--mono);color:var(--greige-dark);background:var(--bone);padding:3px 10px;border-radius:99px}
+.nx-browser img{display:block;width:100%;height:auto}
+.nx-phone{position:absolute;right:0;bottom:0;width:31%;max-width:190px;border-radius:24px;overflow:hidden;border:5px solid var(--ebony);background:var(--ebony);box-shadow:0 30px 50px -24px rgba(42,38,34,.55)}
+.nx-phone img{display:block;width:100%;height:auto;border-radius:18px}
+@media (max-width:760px){.nx-visual{padding:0 18% 30px 0;margin-top:28px}.nx-phone{width:36%}}
+.hosting-inner{display:grid;gap:40px}
+@media (min-width:960px){.hosting-inner{grid-template-columns:1fr 1fr;align-items:center;gap:72px}.hosting-header{margin-bottom:0!important}}
+.hosting-grid[style]{max-width:none!important;width:100%}
+</style>
 </head>
 <body data-page="servicios">
 <header class="sw-nav">
@@ -2169,50 +2184,14 @@ nav {
           <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8L7 12L13 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Zero commissions to outside platforms</li>
         </ul>
       </div>
-      <div class="reservas-example-visuals">
-        <div class="browser-frame">
-  <div class="browser-bar" aria-hidden="true">
-    <span class="dot"></span><span class="dot"></span><span class="dot"></span>
-    <span class="url">nachohuici.es/reservas</span>
-  </div>
-  <div class="browser-shot">
-    <img src="/img/b825b8a7e1.webp" width="1400" height="682" decoding="async" loading="lazy" alt="Nacho Huici booking system on desktop">
-  </div>
-</div>
-        <div class="iphone" role="img" aria-label="Nacho Huici booking system on mobile">
-  <div class="iphone-screen">
-    <div class="iphone-statusbar">
-      <span class="time">9:41</span>
-      <div class="iphone-island" aria-hidden="true"></div>
-      <div class="indicators">
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="9" viewBox="0 0 14 9" fill="none" aria-hidden="true">
-  <rect x="0" y="6" width="2" height="3" rx="0.4" fill="#2A2622"/>
-  <rect x="3.5" y="4" width="2" height="5" rx="0.4" fill="#2A2622"/>
-  <rect x="7" y="2" width="2" height="7" rx="0.4" fill="#2A2622"/>
-  <rect x="10.5" y="0" width="2" height="9" rx="0.4" fill="#2A2622"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 14 10" fill="none" aria-hidden="true">
-  <path d="M7 9.2L8.5 7.7C8.1 7.3 7.6 7.1 7 7.1C6.4 7.1 5.9 7.3 5.5 7.7L7 9.2Z" fill="#2A2622"/>
-  <path d="M7 5.4C8.2 5.4 9.3 5.9 10.1 6.7L11.5 5.3C10.3 4.1 8.7 3.4 7 3.4C5.3 3.4 3.7 4.1 2.5 5.3L3.9 6.7C4.7 5.9 5.8 5.4 7 5.4Z" fill="#2A2622"/>
-  <path d="M7 1.6C9.2 1.6 11.3 2.5 12.9 4L14 2.8C12.1 1 9.6 0 7 0C4.4 0 1.9 1 0 2.8L1.1 4C2.7 2.5 4.8 1.6 7 1.6Z" fill="#2A2622"/>
-</svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="11" viewBox="0 0 26 12" fill="none" aria-hidden="true">
-  <rect x="0.5" y="0.5" width="22" height="11" rx="2.5" fill="none" stroke="#2A2622" stroke-opacity="0.4" stroke-width="1"/>
-  <rect x="2" y="2" width="14" height="8" rx="1.2" fill="#2A2622"/>
-  <rect x="23.5" y="3.5" width="1.5" height="5" rx="0.7" fill="#2A2622" fill-opacity="0.4"/>
-</svg>
-      </div>
-    </div>
-    <div class="iphone-content">
-      <img src="/img/7b176d2165.webp" width="600" height="1096" decoding="async" loading="lazy" alt="Nacho Huici booking system on mobile">
-    </div>
-    <div class="iphone-urlbar">
-      <div class="urlbar-btn"><svg viewBox="0 0 16 16" fill="none"><path d="M10 4L6 8L10 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-      <div class="urlbar-domain">reservas.nachohuici.es</div>
-      <div class="urlbar-btn"><svg viewBox="0 0 16 16" fill="none"><path d="M8 2V14M2 8H14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-    </div>
-  </div>
-</div>
+      <div class="nx-visual">
+        <div class="nx-browser">
+          <div class="nx-bar" aria-hidden="true"><i></i><i></i><i></i><span>nachohuici.es</span></div>
+          <img src="/img/4f0c39140d.webp" width="1400" height="692" decoding="async" loading="lazy" alt="Nacho Huici barbershop website on desktop">
+        </div>
+        <div class="nx-phone">
+          <img src="/img/7b176d2165.webp" width="600" height="1096" decoding="async" loading="lazy" alt="Nacho Huici custom booking calendar on mobile">
+        </div>
       </div>
     </div>
   </div>
