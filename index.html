@@ -99,6 +99,7 @@ p{margin:0}
 @media (max-width:520px){.hero-ctas .btn{flex:1 1 100%}}
 .hero-points{list-style:none;margin:22px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 18px;font-family:var(--mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .hero-points li{display:flex;align-items:center;gap:7px}
+@media (max-width:600px){.hero-points,.lede-more{display:none}.hero h1{margin-bottom:14px}.hero-ctas{margin-top:22px}}
 .hero-points li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--brown)}
 
 /* staggered load reveal */
@@ -127,12 +128,12 @@ p{margin:0}
 .serp-item.a{transform:translateY(0)}
 .serp-item.b{transform:translateY(76px)}
 .pos-new{transform:translateY(100%)}
-.js .serp-item.you{animation:toTop 900ms var(--ease-io) 1.2s forwards}
-.js .serp-item.a{animation:down1 900ms var(--ease-io) 1.2s forwards}
-.js .serp-item.b{animation:down2 900ms var(--ease-io) 1.2s forwards}
-.js .pos-old{animation:numOut 400ms var(--ease-out) 1.75s forwards}
-.js .pos-new{animation:numIn 400ms var(--ease-out) 1.75s forwards}
-.js .serp-chip{animation:chip 300ms var(--ease-out) 2.1s forwards}
+.js .serp.play .serp-item.you{animation:toTop 900ms var(--ease-io) .35s forwards}
+.js .serp.play .serp-item.a{animation:down1 900ms var(--ease-io) .35s forwards}
+.js .serp.play .serp-item.b{animation:down2 900ms var(--ease-io) .35s forwards}
+.js .serp.play .pos-old{animation:numOut 400ms var(--ease-out) .9s forwards}
+.js .serp.play .pos-new{animation:numIn 400ms var(--ease-out) .9s forwards}
+.js .serp.play .serp-chip{animation:chip 300ms var(--ease-out) 1.25s forwards}
 @keyframes toTop{to{transform:translateY(0)}}
 @keyframes down1{to{transform:translateY(76px)}}
 @keyframes down2{to{transform:translateY(152px)}}
@@ -266,7 +267,7 @@ section{scroll-margin-top:80px}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .js .r,.js .reveal{animation:none;transition:opacity .3s ease;transform:none;opacity:1}
-  .js .serp-item,.js .pos-old,.js .pos-new,.js .serp-chip,.js .serp-item .pos{animation-duration:1ms!important;animation-delay:0s!important}
+  .js .serp.play .serp-item,.js .serp.play .pos-old,.js .serp.play .pos-new,.js .serp.play .serp-chip{animation-duration:1ms!important;animation-delay:0s!important}
   .js .vitals .meter i{transition:none;transform:scaleX(var(--w))}
 }
 </style>
@@ -315,14 +316,13 @@ section{scroll-margin-top:80px}
   <div class="hero-copy">
     <p class="eyebrow r" style="--d:0">Local SEO · Speed · Websites</p>
     <h1 class="r" style="--d:1">Be the first name they find <em>on Google.</em></h1>
-    <p class="lede r" style="--d:2">We help salons, barbershops and restaurants climb the local rankings with fast, search-ready websites and Google Business Profile work — so the people nearby call you, not the place down the street.</p>
+    <p class="lede r" style="--d:2">Local SEO and fast, search-ready websites that put salons, barbershops and restaurants at the top of Google<span class="lede-more"> — so people nearby call you, not the place down the street</span>.</p>
     <div class="hero-ctas r" style="--d:3">
       <a href="mailto:soulwebs2026@gmail.com?subject=Free%20Google%20snapshot" class="btn btn-dark">Get a free Google snapshot <span aria-hidden="true">→</span></a>
       <a href="#work" class="btn btn-ghost">See our work</a>
     </div>
     <ul class="hero-points r" style="--d:4">
       <li>Free ranking check</li>
-      <li>Preview in 24h</li>
       <li>Pay only if you love it</li>
     </ul>
   </div>
@@ -330,7 +330,7 @@ section{scroll-margin-top:80px}
   <div class="serp r" style="--d:2" aria-label="Illustration: your business moving to the top of Google's local results">
     <div class="serp-bar">
       <span class="g-dot" aria-hidden="true"></span>
-      <span class="serp-q">barbershop near me</span>
+      <span class="serp-q">top rated near me</span>
       <span class="serp-icon" aria-hidden="true">⌕</span>
     </div>
     <div class="serp-label">Map results</div>
@@ -338,13 +338,13 @@ section{scroll-margin-top:80px}
       <li class="serp-item you">
         <span class="pos"><span class="pos-old">3</span><span class="pos-new">1</span></span>
         <div class="serp-body">
-          <strong>Your Barbershop</strong>
+          <strong>Your Business</strong>
           <span class="stars" aria-hidden="true">★★★★★</span><span class="meta">4.9 · Open now</span>
         </div>
         <span class="serp-chip">Top 3</span>
       </li>
-      <li class="serp-item other a"><span class="pos"><span class="pos-old">1</span><span class="pos-new">2</span></span><div class="serp-body"><strong>Downtown Cuts</strong><span class="meta">4.4 · Closes 7 PM</span></div></li>
-      <li class="serp-item other b"><span class="pos"><span class="pos-old">2</span><span class="pos-new">3</span></span><div class="serp-body"><strong>The Fade Room</strong><span class="meta">4.3 · Open now</span></div></li>
+      <li class="serp-item other a"><span class="pos"><span class="pos-old">1</span><span class="pos-new">2</span></span><div class="serp-body"><strong>Competitor on Main St</strong><span class="meta">4.4 · Closes 7 PM</span></div></li>
+      <li class="serp-item other b"><span class="pos"><span class="pos-old">2</span><span class="pos-new">3</span></span><div class="serp-body"><strong>Competitor Downtown</strong><span class="meta">4.3 · Open now</span></div></li>
     </ol>
     <div class="serp-foot">
       <div class="vital"><span>LCP</span><b>fast</b></div>
@@ -500,8 +500,8 @@ section{scroll-margin-top:80px}
   </div>
   <ol class="steps">
     <li class="reveal"><span>01</span><h3>Free Google snapshot</h3><p>Where you rank today for your key searches, and what's holding you back.</p></li>
-    <li class="reveal"><span>02</span><h3>Preview in 24 hours</h3><p>A working version of your new or improved site — not a mockup.</p></li>
-    <li class="reveal"><span>03</span><h3>Launch, fast</h3><p>Speed-tuned, search-ready, with your Google Business Profile set up right.</p></li>
+    <li class="reveal"><span>02</span><h3>Fix the foundations</h3><p>Google Business Profile, on-page SEO and the speed issues holding you back.</p></li>
+    <li class="reveal"><span>03</span><h3>Launch, fast</h3><p>A speed-tuned, search-ready website your customers and Google both understand.</p></li>
     <li class="reveal"><span>04</span><h3>Climb every month</h3><p>Ongoing local SEO with a plain-English report on rankings and calls.</p></li>
   </ol>
 </section>
@@ -554,6 +554,8 @@ section{scroll-margin-top:80px}
   bd.addEventListener('click',function(){set(false);});
   d.addEventListener('click',function(e){if(e.target.closest('a'))set(false);});
   document.addEventListener('keydown',function(e){if(e.key==='Escape')set(false);});
+  var serp=document.querySelector('.serp');
+  if(serp){ if('IntersectionObserver' in window){ var so=new IntersectionObserver(function(es){es.forEach(function(x){ if(x.isIntersecting){ setTimeout(function(){serp.classList.add('play');}, window.innerWidth>=960?700:150); so.disconnect(); } });},{threshold:.6}); so.observe(serp);} else serp.classList.add('play'); }
   if('IntersectionObserver' in window){
     var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}});},{rootMargin:'0px 0px -8% 0px'});
     document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
