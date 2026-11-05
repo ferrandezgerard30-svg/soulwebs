@@ -1,0 +1,6 @@
+/* Shared UI bits used across pages */
+.lang-switch{display:inline-flex;align-items:center;padding:3px;border-radius:999px;background:rgba(42,38,34,.05);border:1px solid rgba(42,38,34,.12);font:500 11px/1 'Geist Mono',ui-monospace,monospace;letter-spacing:.08em;flex-shrink:0}
+.lang-switch a{display:grid;place-items:center;min-width:34px;height:28px;padding:0 9px;border-radius:999px;color:#4A453E;text-decoration:none;transition:background-color .2s ease,color .2s ease,transform 160ms cubic-bezier(.23,1,.32,1);-webkit-tap-highlight-color:transparent}
+.lang-switch a[aria-current="true"]{background:#2A2622;color:#F4F1EB;pointer-events:none}
+.lang-switch a:active{transform:scale(.94)}
+@media (hover:hover) and (pointer:fine){.lang-switch a:not([aria-current="true"]):hover{background:rgba(42,38,34,.08);color:#2A2622}}
