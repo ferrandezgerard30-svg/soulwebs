@@ -1,0 +1,35 @@
+/* Shared site menu — identical on every English page */
+.sw-nav,.sw-nav *,.sw-sheet,.sw-sheet *{box-sizing:border-box}
+.sw-nav{max-width:none;margin:0;position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;gap:20px;height:68px;padding:0 clamp(16px,5vw,64px);padding-top:env(safe-area-inset-top);background:rgba(244,241,235,.84);-webkit-backdrop-filter:saturate(1.4) blur(14px);backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid rgba(42,38,34,.08);font-family:'Geist',system-ui,sans-serif;color:#2A2622}
+.sw-spacer{height:68px}
+.sw-brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:#2A2622;margin-right:auto}
+.sw-brand img{width:34px;height:34px;border-radius:9px;display:block}
+.sw-brand span{font-family:'Fraunces','Times New Roman',serif;font-size:20px;letter-spacing:-.01em;line-height:1}
+.sw-links{display:none;gap:2px}
+.sw-links a{font-size:14px;line-height:1;text-decoration:none;color:#4A453E;padding:10px 12px;border-radius:999px;transition:background-color .2s ease,color .2s ease}
+.sw-links a[aria-current="page"]{color:#2A2622;background:rgba(42,38,34,.07)}
+@media (hover:hover) and (pointer:fine){.sw-links a:hover{background:rgba(42,38,34,.06);color:#2A2622}}
+.sw-right{display:flex;align-items:center;gap:10px}
+.sw-cta{display:none;align-items:center;min-height:40px;padding:0 18px;border-radius:999px;background:#2A2622;color:#F4F1EB;font:500 14px/1 'Geist',system-ui,sans-serif;text-decoration:none;transition:transform 160ms cubic-bezier(.23,1,.32,1),background-color .2s ease}
+.sw-cta:active{transform:scale(.97)}
+@media (hover:hover){.sw-cta:hover{background:#4A453E}}
+.sw-menu{width:44px;height:44px;border-radius:50%;border:1px solid rgba(42,38,34,.18);background:transparent;display:grid;place-content:center;gap:5px;cursor:pointer;padding:0;transition:transform 160ms cubic-bezier(.23,1,.32,1);-webkit-tap-highlight-color:transparent}
+.sw-menu:active{transform:scale(.94)}
+.sw-menu span{display:block;width:16px;height:1.5px;background:#2A2622;transition:transform 260ms cubic-bezier(.23,1,.32,1)}
+.menu-open .sw-menu span:first-child{transform:translateY(3.25px) rotate(45deg)}
+.menu-open .sw-menu span:last-child{transform:translateY(-3.25px) rotate(-45deg)}
+.sw-backdrop{position:fixed;inset:0;z-index:180;background:rgba(42,38,34,.25);opacity:0;pointer-events:none;transition:opacity .25s ease}
+.sw-sheet{position:fixed;left:0;right:0;top:0;z-index:190;max-height:100dvh;overflow:auto;background:#FAF8F4;padding:84px clamp(16px,5vw,64px) 24px;padding-bottom:max(24px,env(safe-area-inset-bottom));border-radius:0 0 24px 24px;box-shadow:0 30px 60px -30px rgba(42,38,34,.35);transform:translateY(-104%);transition:transform 380ms cubic-bezier(.32,.72,0,1);display:flex;flex-direction:column;gap:10px;font-family:'Geist',system-ui,sans-serif;color:#2A2622}
+.sw-sheet-links{display:flex;flex-direction:column;margin-bottom:12px}
+.sw-sheet-links a{font-family:'Fraunces','Times New Roman',serif;font-size:28px;line-height:1.2;text-decoration:none;color:#2A2622;padding:9px 0;border-bottom:1px solid rgba(42,38,34,.10);display:flex;justify-content:space-between;align-items:center}
+.sw-sheet-links a[aria-current="page"]{font-style:italic;color:#8A6A4F}
+.sw-sheet-links a[aria-current="page"]::after{content:"";width:7px;height:7px;border-radius:50%;background:#8A6A4F}
+.sw-btn{display:flex;align-items:center;justify-content:center;min-height:50px;border-radius:999px;font:500 15px/1 'Geist',system-ui,sans-serif;text-decoration:none;transition:transform 160ms cubic-bezier(.23,1,.32,1)}
+.sw-btn:active{transform:scale(.97)}
+.sw-btn.dark{background:#2A2622;color:#F4F1EB}
+.sw-btn.line{border:1px solid rgba(42,38,34,.18);color:#2A2622}
+.menu-open .sw-sheet{transform:none}
+.menu-open .sw-backdrop{opacity:1;pointer-events:auto}
+@media (min-width:1080px){.sw-links{display:flex}.sw-cta{display:inline-flex}.sw-menu,.sw-sheet,.sw-backdrop{display:none}}
+@media (max-width:360px){.sw-brand span{font-size:18px}.sw-right{gap:8px}}
+@media (prefers-reduced-motion:reduce){.sw-sheet{transition:opacity .2s ease}.sw-sheet{opacity:0}.menu-open .sw-sheet{opacity:1}}

@@ -11,6 +11,8 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#2A2622">
 <link rel="stylesheet" href="/fonts/fonts.css">
+<link rel="stylesheet" href="/ui.css">
+<link rel="stylesheet" href="/nav.css">
 <style>
 :root{--bone:#F4F1EB;--paper:#FAF8F4;--ebony:#2A2622;--ebony-soft:#4A453E;--pearl:#DBD6CD;--line:rgba(42,38,34,.14);
 --display:'Fraunces','Times New Roman',serif;--body:'Geist',system-ui,sans-serif;--mono:'Geist Mono','Courier New',monospace}
@@ -46,10 +48,22 @@ footer a{color:inherit}
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<header>
-  <a class="brand" href="/">Soul Webs</a>
-  <nav aria-label="Legal"><a href="/legal">Legal</a><a href="/privacy">Privacy</a><a href="/es" hreflang="es" lang="es">ES</a></nav>
+<header class="sw-nav">
+  <a href="/" class="sw-brand" aria-label="Soul Webs — Home"><img src="/img/logo-96.webp" width="96" height="96" alt=""><span>Soul Webs</span></a>
+  <div class="sw-links" role="navigation" aria-label="Main"><a href="/">Home</a><a href="/services">Services</a><a href="/work">Work</a><a href="/sectors">Industries</a><a href="/guides">Guides</a><a href="/reviews">Reviews</a><a href="/contact">Contact</a></div>
+  <div class="sw-right">
+    <div class="lang-switch" role="group" aria-label="Language"><a href="/privacy" aria-current="true" lang="en">EN</a><a href="/privacy#es" hreflang="es" lang="es">ES</a></div>
+    <a href="mailto:soulwebs2026@gmail.com?subject=Free%20Google%20snapshot" class="sw-cta">Free snapshot</a>
+    <button class="sw-menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><span></span><span></span></button>
+  </div>
 </header>
+<div class="sw-backdrop" id="backdrop"></div>
+<aside class="sw-sheet" id="drawer" aria-label="Menu">
+  <div class="sw-sheet-links" role="navigation" aria-label="Mobile"><a href="/">Home</a><a href="/services">Services</a><a href="/work">Work</a><a href="/sectors">Industries</a><a href="/guides">Guides</a><a href="/reviews">Reviews</a><a href="/contact">Contact</a></div>
+  <a href="mailto:soulwebs2026@gmail.com?subject=Free%20Google%20snapshot" class="sw-btn dark">Get a free Google snapshot</a>
+  <a href="https://instagram.com/soul_webs" target="_blank" rel="noopener" class="sw-btn line">Message us on Instagram</a>
+</aside>
+<div class="sw-spacer"></div>
 <main id="main">
 <div class="tag">Privacy</div>
 <h1>Privacy <em>&amp; cookie policy</em></h1>
@@ -152,5 +166,6 @@ footer a{color:inherit}
   <span><a href="/">Home</a> · <a href="/es" hreflang="es" lang="es">Español</a> · <a href="/legal">Legal notice</a> · <a href="/privacy">Privacy &amp; cookies</a> · <a href="/accessibility">Accessibility</a></span>
 </footer>
 <script src="/contact.js" defer></script>
+<script src="/nav.js" defer></script>
 </body>
 </html>

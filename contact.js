@@ -74,6 +74,7 @@
     if (!a || a.hasAttribute('data-sw-direct') || e.metaKey || e.ctrlKey || e.shiftKey) return;
     e.preventDefault();
     // close the mobile menu if it's open
+    document.body.classList.remove('menu-open');
     var d = document.getElementById('drawer'), b = document.getElementById('backdrop');
     if (d) d.classList.remove('open'); if (b) b.classList.remove('open');
     open(a.getAttribute('href'));
