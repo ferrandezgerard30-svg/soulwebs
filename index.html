@@ -97,7 +97,6 @@ p{margin:0}
 .serp-body strong{font-weight:500;font-size:15px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .meta{font-size:12.5px;color:var(--muted)}
 .stars{color:#E6A23C;font-size:12px;letter-spacing:1px;margin-right:6px}
-.serp-chip{margin-left:auto;font:500 10.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;background:var(--ink);color:var(--bone);padding:6px 9px;border-radius:999px;opacity:0;transform:scale(.9);transition:none}
 .serp-item.you{border-color:var(--brown-soft);box-shadow:0 12px 24px -16px rgba(138,106,79,.55);z-index:2}
 .serp-item.you .pos{background:var(--ink);color:var(--bone)}
 .pos-old,.pos-new{position:absolute;inset:0;display:grid;place-items:center}
@@ -111,13 +110,11 @@ p{margin:0}
 .js .serp.play .serp-item.b{animation:down2 900ms var(--ease-io) .35s forwards}
 .js .serp.play .pos-old{animation:numOut 400ms var(--ease-out) .9s forwards}
 .js .serp.play .pos-new{animation:numIn 400ms var(--ease-out) .9s forwards}
-.js .serp.play .serp-chip{animation:chip 300ms var(--ease-out) 1.25s forwards}
-@keyframes toTop{to{transform:translateY(0)}}
+.js .serp.play @keyframes toTop{to{transform:translateY(0)}}
 @keyframes down1{to{transform:translateY(76px)}}
 @keyframes down2{to{transform:translateY(152px)}}
 @keyframes numOut{to{transform:translateY(-100%);opacity:0}}
 @keyframes numIn{to{transform:none}}
-@keyframes chip{to{opacity:1;transform:none}}
 .serp-foot{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
 .vital{background:var(--bone);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:flex;flex-direction:column;gap:2px}
 .vital span{font:500 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
@@ -237,7 +234,7 @@ section{scroll-margin-top:80px}
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
   .js .r,.js .reveal{animation:none;transition:opacity .3s ease;transform:none;opacity:1}
-  .js .serp.play .serp-item,.js .serp.play .pos-old,.js .serp.play .pos-new,.js .serp.play .serp-chip{animation-duration:1ms!important;animation-delay:0s!important}
+  .js .serp.play .serp-item,.js .serp.play .pos-old,.js .serp.play .pos-new{animation-duration:1ms!important;animation-delay:0s!important}
   .js .vitals .meter i{transition:none;transform:scaleX(var(--w))}
 }
 </style>
@@ -292,7 +289,6 @@ section{scroll-margin-top:80px}
           <strong>Your Business</strong>
           <span class="stars" aria-hidden="true">★★★★★</span><span class="meta">4.9 · Open now</span>
         </div>
-        <span class="serp-chip">Top 3</span>
       </li>
       <li class="serp-item other a"><span class="pos"><span class="pos-old">1</span><span class="pos-new">2</span></span><div class="serp-body"><strong>Competitor on Main St</strong><span class="meta">4.4 · Closes 7 PM</span></div></li>
       <li class="serp-item other b"><span class="pos"><span class="pos-old">2</span><span class="pos-new">3</span></span><div class="serp-body"><strong>Competitor Downtown</strong><span class="meta">4.3 · Open now</span></div></li>
