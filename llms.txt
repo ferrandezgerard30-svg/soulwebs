@@ -7,6 +7,7 @@
 - [Services](https://soulwebsites.com/services): Essential Website (one complete page) and Pro Website (subpages + SEO blog with up to 12 articles). Built-in booking in both plans: custom system, third-party apps (Booksy, Fresha, Vagaro, Square, OpenTable, Resy), phone call or WhatsApp. Extra services: local SEO, Google Ads, Meta Ads, social media, brand identity. Hosting on Vercel included; premium hosting on request.
 - [Our work](https://soulwebsites.com/work): real client websites — Santa Malasaña, Oscar Palos Hair Salon, Nacho Huici, Ohana Hair Studio, Peluquería Jaime.
 - [Industries](https://soulwebsites.com/sectors): hair salons & barbershops (main), restaurants & bars.
+- [Guides](https://soulwebsites.com/guides): local SEO for hair salons, restaurant website mistakes, own website vs Booksy/Fresha.
 - [Reviews](https://soulwebsites.com/reviews) · [Contact](https://soulwebsites.com/contact)
 - Contact: soulwebs2026@gmail.com · WhatsApp +34 614 141 469 · Instagram @soul_webs
 - Legal: https://soulwebsites.com/legal · Privacy: https://soulwebsites.com/privacy

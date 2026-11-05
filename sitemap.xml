@@ -97,32 +97,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://soulwebsites.com/blog</loc>
-    <lastmod>2026-05-27</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://soulwebsites.com/blog/cuanto-cuesta-pagina-web-peluqueria</loc>
     <lastmod>2026-05-27</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://soulwebsites.com/blog/booksy-vs-fresha-vs-treatwell-comparativa</loc>
-    <lastmod>2026-05-27</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://soulwebsites.com/blog/seo-local-peluqueria-aparecer-primero-google</loc>
-    <lastmod>2026-05-27</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://soulwebsites.com/blog/web-propia-o-booksy-fresha-peluqueria</loc>
-    <lastmod>2026-05-27</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://soulwebsites.com/blog/errores-web-restaurantes-pierden-reservas</loc>
     <lastmod>2026-05-27</lastmod>
     <priority>0.5</priority>
   </url>
@@ -140,5 +120,69 @@
     <loc>https://soulwebsites.com/accessibility</loc>
     <lastmod>2026-11-05</lastmod>
     <priority>0.2</priority>
+  </url>
+  <url>
+    <loc>https://soulwebsites.com/guides</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soulwebsites.com/guides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soulwebsites.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soulwebsites.com/guides"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://soulwebsites.com/blog</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soulwebsites.com/guides"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soulwebsites.com/blog"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soulwebsites.com/guides"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://soulwebsites.com/guides/local-seo-hair-salons-rank-first-google</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soulwebsites.com/guides/local-seo-hair-salons-rank-first-google"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soulwebsites.com/blog/seo-local-peluqueria-aparecer-primero-google"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soulwebsites.com/guides/local-seo-hair-salons-rank-first-google"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://soulwebsites.com/blog/seo-local-peluqueria-aparecer-primero-google</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soulwebsites.com/guides/local-seo-hair-salons-rank-first-google"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soulwebsites.com/blog/seo-local-peluqueria-aparecer-primero-google"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soulwebsites.com/guides/local-seo-hair-salons-rank-first-google"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://soulwebsites.com/guides/restaurant-website-mistakes</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soulwebsites.com/guides/restaurant-website-mistakes"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soulwebsites.com/blog/errores-web-restaurantes-pierden-reservas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soulwebsites.com/guides/restaurant-website-mistakes"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://soulwebsites.com/blog/errores-web-restaurantes-pierden-reservas</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soulwebsites.com/guides/restaurant-website-mistakes"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soulwebsites.com/blog/errores-web-restaurantes-pierden-reservas"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soulwebsites.com/guides/restaurant-website-mistakes"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://soulwebsites.com/guides/own-website-or-booksy-fresha</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soulwebsites.com/guides/own-website-or-booksy-fresha"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soulwebsites.com/blog/web-propia-o-booksy-fresha-peluqueria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soulwebsites.com/guides/own-website-or-booksy-fresha"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://soulwebsites.com/blog/web-propia-o-booksy-fresha-peluqueria</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://soulwebsites.com/guides/own-website-or-booksy-fresha"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://soulwebsites.com/blog/web-propia-o-booksy-fresha-peluqueria"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://soulwebsites.com/guides/own-website-or-booksy-fresha"/>
+    <lastmod>2026-11-05</lastmod>
+    <priority>0.5</priority>
   </url>
 </urlset>

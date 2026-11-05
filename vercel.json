@@ -207,6 +207,21 @@
       "source": "/testimonials",
       "destination": "/reviews",
       "permanent": true
+    },
+    {
+      "source": "/en/blog",
+      "destination": "/guides",
+      "permanent": true
+    },
+    {
+      "source": "/blog-en",
+      "destination": "/guides",
+      "permanent": true
+    },
+    {
+      "source": "/articles",
+      "destination": "/guides",
+      "permanent": true
     }
   ]
 }
