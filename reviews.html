@@ -1708,7 +1708,8 @@ function enviarResena(e) {
   msg += 'Business: ' + negocio + '\n';
   msg += 'Rating: ' + starsRender + ' (' + rating + '/5)\n\n';
   msg += 'Comment:\n' + comentario;
-  window.location.href = 'mailto:soulwebs2026@gmail.com?subject=' + encodeURIComponent('Review for Soul Webs') + '&body=' + encodeURIComponent(msg);
+  var mailUrl = 'mailto:soulwebs2026@gmail.com?subject=' + encodeURIComponent('Review for Soul Webs') + '&body=' + encodeURIComponent(msg);
+  if (window.swOpenMail) { window.swOpenMail(mailUrl); } else { window.location.href = mailUrl; }
 }
 </script>
 <section class="cta-banner">
@@ -1776,5 +1777,6 @@ function enviarResena(e) {
     </div>
   </div>
 </footer>
+<script src="/contact.js" defer></script>
 </body>
 </html>
