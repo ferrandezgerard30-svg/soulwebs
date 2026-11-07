@@ -82,6 +82,9 @@ p{margin:0}
 .hero-points li{display:flex;align-items:center;gap:7px}
 @media (max-width:600px){.hero-points,.lede-more{display:none}.hero h1{margin-bottom:14px}.hero-ctas{margin-top:22px}}
 .hero-points li::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--brown)}
+/* hero: fit the first screen on desktop, no dead band before "What we do" */
+@media (min-width:960px){.hero{padding-top:clamp(32px,6vh,72px);padding-bottom:clamp(24px,4vh,48px)}.hero h1{font-size:clamp(56px,min(6.4vw,10.5vh),92px)}}
+.hero + .pillars{padding-top:clamp(32px,5vw,64px)}
 
 /* staggered load reveal */
 .js .r{opacity:0;transform:translateY(10px);animation:rise 700ms var(--ease-out) forwards;animation-delay:calc(var(--d)*70ms + 80ms)}
@@ -122,6 +125,21 @@ p{margin:0}
 .vital{background:var(--bone);border:1px solid var(--line);border-radius:12px;padding:10px 12px;display:flex;flex-direction:column;gap:2px}
 .vital span{font:500 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
 .vital b{font-family:var(--display);font-weight:400;font-style:italic;font-size:18px;color:#3F7A4E}
+
+/* testimonials */
+.voices{max-width:var(--max);margin:0 auto;padding:clamp(64px,10vw,120px) var(--gut) 0}
+.voice-grid{display:grid;gap:14px;grid-template-columns:1fr}
+@media (min-width:640px){.voice-grid{grid-template-columns:1fr 1fr}.voice-grid>.voice:last-child:nth-child(odd){grid-column:1/-1}}
+@media (min-width:960px){.voice-grid{grid-template-columns:repeat(6,1fr)}.voice-grid>.voice{grid-column:span 2}.voice-grid>.voice:nth-child(-n+2){grid-column:span 3}.voice-grid>.voice:last-child:nth-child(odd){grid-column:span 2}}
+.voice{margin:0;background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:clamp(22px,3vw,34px);display:flex;flex-direction:column;gap:18px;justify-content:space-between}
+.voice .stars{color:var(--brown-soft);letter-spacing:.12em;font-size:13px}
+.voice blockquote{margin:0}
+.voice blockquote p{margin:0;font-family:var(--display);font-size:clamp(20px,2.2vw,24px);line-height:1.3;color:var(--ink)}
+.voice-grid>.voice:nth-child(-n+2) blockquote p{font-size:clamp(22px,2.6vw,28px)}
+.voice figcaption{display:flex;flex-direction:column;gap:2px;border-top:1px solid var(--line);padding-top:14px}
+.voice figcaption strong{font-weight:500;font-size:15px}
+.voice figcaption span{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.voice-grid .reveal:nth-child(2){transition-delay:60ms}.voice-grid .reveal:nth-child(3){transition-delay:120ms}.voice-grid .reveal:nth-child(4){transition-delay:180ms}.voice-grid .reveal:nth-child(5){transition-delay:240ms}
 
 /* sections */
 section{scroll-margin-top:80px}
@@ -180,7 +198,8 @@ section{scroll-margin-top:80px}
 .quote p{font-family:var(--display);font-style:italic;font-size:clamp(26px,3.4vw,34px);line-height:1.1}
 .quote figcaption{margin-top:6px;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .work-grid{display:grid;gap:14px;grid-template-columns:1fr}
-@media (min-width:640px){.work-grid{grid-template-columns:1fr 1fr}}
+@media (min-width:640px){.work-grid{grid-template-columns:1fr 1fr}.work-grid>.card:last-child:nth-child(odd){grid-column:1/-1}}
+@media (min-width:960px){.work-grid{grid-template-columns:repeat(6,1fr)}.work-grid>.card{grid-column:span 2}.work-grid>.card:nth-child(-n+2){grid-column:span 3}.work-grid>.card:last-child:nth-child(odd){grid-column:span 2}}
 .card{display:flex;flex-direction:column;text-decoration:none;background:var(--paper);border:1px solid var(--line);border-radius:20px;overflow:hidden;transition:transform 300ms var(--ease-out),box-shadow 300ms var(--ease-out)}
 .card:active{transform:scale(.985)}
 .card-img{aspect-ratio:1400/692;overflow:hidden;background:var(--sand)}
@@ -237,6 +256,7 @@ section{scroll-margin-top:80px}
 .work-grid .reveal:nth-child(2),.steps .reveal:nth-child(2){transition-delay:60ms}
 .work-grid .reveal:nth-child(3),.steps .reveal:nth-child(3){transition-delay:120ms}
 .work-grid .reveal:nth-child(4),.steps .reveal:nth-child(4){transition-delay:180ms}
+.work-grid .reveal:nth-child(5){transition-delay:240ms}
 
 @media (prefers-reduced-motion:reduce){
   html{scroll-behavior:auto}
@@ -385,42 +405,18 @@ section{scroll-margin-top:80px}
     <a href="/work" class="link">See every project →</a>
   </div>
 
-  <!-- Featured: Nacho Huici -->
-  <article class="feature reveal">
-    <div class="feature-media">
-      <div class="browser">
-        <div class="browser-bar"><i></i><i></i><i></i><span>nachohuici.es</span></div>
-        <img src="/img/4f0c39140d.webp" width="1400" height="692" loading="lazy" decoding="async" alt="Nacho Huici barbershop website on desktop">
-      </div>
-      <div class="phone">
-        <img src="/img/7b176d2165.webp" width="600" height="1096" loading="lazy" decoding="async" alt="Nacho Huici custom booking system on mobile">
-      </div>
-    </div>
-    <div class="feature-copy">
-      <p class="eyebrow">Featured client · Barbershop · Pamplona, Spain</p>
-      <h3>Nacho Huici</h3>
-      <p>A custom website with its own booking system — no Booksy or Fresha commissions. Clients pick a barber, see live availability in 30-minute slots and book in three languages, from any phone.</p>
-      <ul class="ticks">
-        <li>Custom booking: calendar per barber</li>
-        <li>Zero platform commissions</li>
-        <li>Spanish, Basque and English</li>
-        <li>Fast, mobile-first build with local SEO</li>
-      </ul>
-      <figure class="quote">
-        <blockquote><p>“Fantastic.”</p></blockquote>
-        <figcaption>Nacho Huici, in his review of our work</figcaption>
-      </figure>
-      <a href="https://nachohuici.es" target="_blank" rel="noopener" class="btn btn-line">Visit nachohuici.es <span aria-hidden="true">↗</span></a>
-    </div>
-  </article>
 
   <div class="work-grid">
+    <a class="card reveal" href="https://nachohuici.es" target="_blank" rel="noopener">
+      <div class="card-img"><img src="/img/4f0c39140d.webp" width="1400" height="692" loading="lazy" decoding="async" alt="Nacho Huici barbershop website"></div>
+      <div class="card-meta"><strong>Nacho Huici</strong><span>Barbershop · Pamplona · Custom booking, 3 languages</span></div>
+    </a>
     <a class="card reveal" href="https://santamalasanapeluqueria.es/en/" target="_blank" rel="noopener">
       <div class="card-img"><img src="/img/sm-en-desktop.webp" width="1400" height="692" loading="lazy" decoding="async" alt="Santa Malasaña website"></div>
       <div class="card-meta"><strong>Santa Malasaña</strong><span>Barbershop · Madrid · SEO blog, bilingual</span></div>
     </a>
     <a class="card reveal" href="https://oscarpaloshairsalon.com" target="_blank" rel="noopener">
-      <div class="card-img"><img src="/img/cc8b6197d5.webp" width="1400" height="692" loading="lazy" decoding="async" alt="Oscar Palos Hair Salon website"></div>
+      <div class="card-img"><img src="/img/op-en-desktop.webp" width="1400" height="692" loading="lazy" decoding="async" alt="Oscar Palos Hair Salon website in English"></div>
       <div class="card-meta"><strong>Oscar Palos Hair Salon</strong><span>Hair salon · Valencia · Online booking</span></div>
     </a>
     <a class="card reveal" href="https://ohanaestilista.com" target="_blank" rel="noopener">
@@ -431,6 +427,52 @@ section{scroll-margin-top:80px}
       <div class="card-img"><img src="/img/a9cf97b10b.webp" width="1400" height="688" loading="lazy" decoding="async" alt="Peluquería Jaime website"></div>
       <div class="card-meta"><strong>Peluquería Jaime</strong><span>Barbershop · Cáceres · Google reviews</span></div>
     </a>
+  </div>
+</section>
+
+<!-- ═════════ TESTIMONIALS ═════════ -->
+<section class="voices" id="testimonials">
+  <div class="sec-head reveal">
+    <p class="eyebrow">What clients say</p>
+    <h2>In their <em>own words.</em></h2>
+    <a href="/reviews" class="link">All reviews →</a>
+  </div>
+  <div class="voice-grid">
+    <figure class="voice reveal">
+      <div>
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote><p>“Fantastic day-to-day attention, always going above and beyond what I expected. Incredible results and an absolute pleasure to work with!”</p></blockquote>
+      </div>
+      <figcaption><strong>Nacho Huici</strong><span>Barbershop · Pamplona, Spain</span></figcaption>
+    </figure>
+    <figure class="voice reveal">
+      <div>
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote><p>“Really impressed with the SEO work. We've seen great improvements in our rankings and online visibility. Professional, attentive and results-driven!”</p></blockquote>
+      </div>
+      <figcaption><strong>Santa Malasaña</strong><span>Barbershop · Madrid, Spain</span></figcaption>
+    </figure>
+    <figure class="voice reveal">
+      <div>
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote><p>“Fantastic work, great optimisation and SEO work.”</p></blockquote>
+      </div>
+      <figcaption><strong>Oscar Palos Hair Salon</strong><span>Hair salon · Valencia, Spain</span></figcaption>
+    </figure>
+    <figure class="voice reveal">
+      <div>
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote><p>“Absolutely delighted with my new website. Everything was understood perfectly, and the final result exceeded my expectations. Fantastic service!”</p></blockquote>
+      </div>
+      <figcaption><strong>Pablo, Peluquería Jaime</strong><span>Barbershop · Cáceres, Spain</span></figcaption>
+    </figure>
+    <figure class="voice reveal">
+      <div>
+        <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+        <blockquote><p>“One of the best decisions for my business. Fantastic website, impressive SEO results and outstanding personal attention. Highly recommended!”</p></blockquote>
+      </div>
+      <figcaption><strong>Ohana Hair Studio</strong><span>Hair studio · Barcelona area, Spain</span></figcaption>
+    </figure>
   </div>
 </section>
 
