@@ -41,7 +41,7 @@ El cliente puede elegir entre botón directo al canal preferido o modal con toda
 - [Oscar Palos Hair Salon](https://oscarpaloshairsalon.com) — Peluquería de lujo en Valencia
 - [Nacho Huici](https://nachohuici.es) — Barbería en Pamplona con sistema propio de reservas
 - [Ohana Hair Studio](https://ohanaestilista.com) — Salón en Calella, Barcelona
-- [Peluquería Jaime](https://peluqueriajaime1.com) — Peluquería en Navalmoral de la Mata, Cáceres
+- [Jaime Hair Salon](https://peluqueriajaime1.com) — Peluquería en Navalmoral de la Mata, Cáceres
 
 ## Contacto
 

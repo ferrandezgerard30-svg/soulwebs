@@ -5,7 +5,7 @@
 ## English (United States) — https://www.soulwebsites.com/
 
 - [Services](https://www.soulwebsites.com/services): Essential Website (one complete page) and Pro Website (subpages + SEO blog with up to 12 articles). Built-in booking in both plans: custom system, third-party apps (Booksy, Fresha, Vagaro, Square, OpenTable, Resy), phone call or WhatsApp. Extra services: local SEO, Google Ads, Meta Ads, social media, brand identity. Hosting on Vercel included; premium hosting on request.
-- [Our work](https://www.soulwebsites.com/work): real client websites — Santa Malasaña, Oscar Palos Hair Salon, Nacho Huici, Ohana Hair Studio, Peluquería Jaime.
+- [Our work](https://www.soulwebsites.com/work): real client websites — Santa Malasaña, Oscar Palos Hair Salon, Nacho Huici, Ohana Hair Studio, Jaime Hair Salon.
 - [Industries](https://www.soulwebsites.com/sectors): hair salons & barbershops (main), restaurants & bars.
 - [Guides](https://www.soulwebsites.com/guides): local SEO for hair salons, restaurant website mistakes, own website vs Booksy/Fresha, hair salon website cost, Booksy vs Fresha vs Vagaro.
 - [Reviews](https://www.soulwebsites.com/reviews) · [Contact](https://www.soulwebsites.com/contact)
@@ -55,7 +55,7 @@ El cliente puede elegir entre botón directo al canal preferido o modal con toda
 - [Oscar Palos Hair Salon](https://oscarpaloshairsalon.com) — Peluquería de lujo en Valencia
 - [Nacho Huici](https://nachohuici.es) — Barbería en Pamplona con sistema propio de reservas
 - [Ohana Hair Studio](https://ohanaestilista.com) — Salón en Calella, Barcelona
-- [Peluquería Jaime](https://peluqueriajaime1.com) — Peluquería en Navalmoral de la Mata, Cáceres
+- [Jaime Hair Salon](https://peluqueriajaime1.com) — Peluquería en Navalmoral de la Mata, Cáceres
 
 ## Contacto
 
