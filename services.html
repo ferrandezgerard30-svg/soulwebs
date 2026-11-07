@@ -2002,6 +2002,87 @@ nav {
 .hosting-inner{display:grid;gap:40px}
 @media (min-width:960px){.hosting-inner{grid-template-columns:1fr 1fr;align-items:center;gap:72px}.hosting-header{margin-bottom:0!important}}
 .hosting-grid[style]{max-width:none!important;width:100%}
+
+/* ═══════════ Footer v2 ═══════════ */
+.sw-foot { background: var(--ebony); color: var(--bone); }
+.sw-foot a { color: inherit; text-decoration: none; }
+.sw-foot a:focus-visible { outline: 2px solid var(--greige-soft); outline-offset: 4px; border-radius: 4px; }
+.sf-cta {
+  display: grid; grid-template-columns: 1.3fr 1fr; gap: 64px; align-items: end;
+  padding-bottom: 72px; margin-bottom: 72px;
+  border-bottom: 1px solid rgba(244,241,235,0.12);
+}
+.sf-label {
+  font-family: var(--mono); font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase;
+  color: var(--greige-soft); display: inline-flex; align-items: center; gap: 12px; margin-bottom: 24px;
+}
+.sf-label::before { content: ''; width: 24px; height: 1px; background: currentColor; opacity: .6; }
+.sf-mega {
+  font-family: var(--display); font-weight: 300; font-size: clamp(48px, 7vw, 104px);
+  line-height: .95; letter-spacing: -0.035em; color: var(--bone);
+}
+.sf-mega em { font-style: italic; font-weight: 200; color: var(--greige-soft); }
+.sf-cta-side p { font-size: 16px; line-height: 1.65; color: var(--bone-warm); opacity: .8; max-width: 420px; margin-bottom: 28px; }
+.sf-cta-btns { display: flex; flex-wrap: wrap; gap: 12px; }
+.sf-btn {
+  display: inline-flex; align-items: center; gap: 10px; min-height: 48px;
+  padding: 14px 24px; border-radius: 100px; font-size: 14px; font-weight: 500;
+  transition: background 220ms cubic-bezier(.23,1,.32,1), color 220ms cubic-bezier(.23,1,.32,1), transform 160ms cubic-bezier(.23,1,.32,1);
+}
+.sf-btn svg { width: 13px; height: 13px; transition: transform 220ms cubic-bezier(.23,1,.32,1); }
+.sf-btn:active { transform: scale(0.97); }
+.sf-btn-light { background: var(--bone); color: var(--ebony) !important; }
+.sf-btn-line { border: 1px solid rgba(244,241,235,0.25); color: var(--bone); }
+@media (hover: hover) and (pointer: fine) {
+  .sf-btn-light:hover { background: var(--paper); }
+  .sf-btn-light:hover svg { transform: translateX(3px); }
+  .sf-btn-line:hover { background: rgba(244,241,235,0.08); }
+}
+.sf-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1.2fr; gap: 48px; margin-bottom: 72px; }
+.sf-logo { display: inline-flex; align-items: center; gap: 12px; min-height: 44px; }
+.sf-logo img { width: 40px; height: 40px; border-radius: 9px; background: var(--bone); }
+.sf-logo span { font-family: var(--display); font-size: 21px; font-weight: 500; letter-spacing: -0.015em; }
+.sf-brand p { font-size: 14px; line-height: 1.65; color: var(--bone-warm); opacity: .7; max-width: 300px; margin: 20px 0 24px; }
+.sf-mail { font-family: var(--display); font-size: 18px; border-bottom: 1px solid rgba(244,241,235,0.25); padding-bottom: 2px; transition: border-color 220ms; }
+.sf-col h4 {
+  font-family: var(--mono); font-size: 10px; font-weight: 400; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--greige-soft); margin-bottom: 20px;
+}
+.sf-col ul { list-style: none; margin: 0; padding: 0; }
+.sf-col li + li { margin-top: 4px; }
+.sf-col a {
+  display: inline-block; padding: 6px 0; font-size: 15px; color: var(--bone); opacity: .72;
+  background: linear-gradient(currentColor, currentColor) 0 calc(100% - 4px) / 0 1px no-repeat;
+  transition: opacity 220ms, background-size 300ms cubic-bezier(.23,1,.32,1);
+}
+.sf-col a[aria-current="page"] { opacity: 1; }
+@media (hover: hover) and (pointer: fine) {
+  .sf-col a:hover { opacity: 1; background-size: 100% 1px; }
+  .sf-mail:hover { border-color: var(--bone); }
+}
+.sf-bottom {
+  display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap;
+  padding-top: 28px; border-top: 1px solid rgba(244,241,235,0.12);
+  font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--greige-soft);
+}
+.sf-legal { display: flex; flex-wrap: wrap; gap: 6px 22px; }
+.sf-legal a { padding: 6px 0; transition: color 220ms; }
+@media (hover: hover) and (pointer: fine) { .sf-legal a:hover { color: var(--bone); } }
+@media (max-width: 1024px) {
+  .sf-cta { grid-template-columns: 1fr; gap: 32px; align-items: start; }
+  .sf-grid { grid-template-columns: 1fr 1fr 1fr; }
+  .sf-brand { grid-column: 1 / -1; }
+}
+@media (max-width: 640px) {
+  .sf-cta { padding-bottom: 48px; margin-bottom: 48px; }
+  .sf-cta-btns .sf-btn { width: 100%; justify-content: center; }
+  .sf-grid { grid-template-columns: 1fr 1fr; gap: 40px 24px; margin-bottom: 48px; }
+  .sf-col:last-child { grid-column: 1 / -1; }
+  .sf-bottom { flex-direction: column; align-items: flex-start; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sf-btn, .sf-btn svg, .sf-col a { transition: none; }
+}
 </style>
 </head>
 <body data-page="servicios">
@@ -2224,10 +2305,10 @@ nav {
         <div class="hosting-card-head">
           <div class="hosting-card-platform">
             <div class="hosting-platform-logo">
-              <svg viewBox="0 0 76 76" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M38,4 L74,68 L2,68 Z" fill="#000"/></svg>
+              <svg viewBox="0 0 24 24" fill="none" stroke="#2A2622" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19H7a5 5 0 1 1 1.02-9.9A6 6 0 0 1 19.4 11 4 4 0 0 1 17.5 19z"/></svg>
             </div>
             <div class="info">
-              <div class="name">Vercel</div>
+              <div class="name">Cloudflare Pages</div>
               <div class="label">Standard hosting</div>
             </div>
           </div>
@@ -2236,10 +2317,10 @@ nav {
         <h3>Included <em>— no extra cost</em></h3>
         <p>What every website comes with by default. Plenty of performance for most local businesses with average traffic.</p>
         <ul class="hosting-features">
-          <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8L7 12L13 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Deployed on Vercel with a global CDN</li>
+          <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8L7 12L13 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Deployed on Cloudflare Pages with a global CDN</li>
           <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8L7 12L13 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> SSL certificate included</li>
           <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8L7 12L13 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Domain management</li>
-          <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8L7 12L13 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Up to 100 GB of monthly traffic</li>
+          <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8L7 12L13 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Built to handle traffic spikes without slowing down</li>
           <li><svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8L7 12L13 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Support by email</li>
         </ul>
         <div class="hosting-price">
@@ -2262,56 +2343,74 @@ nav {
     </a>
   </div>
 </section>
-<footer>
+<footer class="sw-foot">
   <div class="footer-inner">
-    <div class="footer-mega">Websites with <em>soul.</em></div>
-    <div class="footer-top">
-      <div class="footer-brand">
-        <a href="/" class="logo">
-          <img src="/img/logo-96.webp" width="96" height="96" decoding="async" alt="" class="logo-img">
-          <div class="logo-text">
-            <span class="name">Soul Webs</span>
-            <span class="est">Est. 2022</span>
-          </div>
-        </a>
-        <p class="footer-brand-text">Local SEO studio for hair salons, barbershops and restaurants, with fast websites built to rank. Designed in Spain, built for the US.</p>
+
+    <div class="sf-cta">
+      <div class="sf-cta-text">
+        <span class="sf-label">Free Google snapshot</span>
+        <p class="sf-mega">Be the first name <em>they find.</em></p>
       </div>
-      <div class="footer-col">
-        <h4>Navigation</h4>
+      <div class="sf-cta-side">
+        <p>See where you show up on Google Maps for the searches that matter, and what's holding you back. Free, no commitment.</p>
+        <div class="sf-cta-btns">
+          <a href="mailto:soulwebs2026@gmail.com?subject=Free%20Google%20snapshot" class="sf-btn sf-btn-light">Get my free snapshot <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M2 8H14M14 8L8 2M14 8L8 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></a>
+          <a href="https://instagram.com/soul_webs" target="_blank" rel="noopener" class="sf-btn sf-btn-line">Message us on Instagram</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="sf-grid">
+      <div class="sf-brand">
+        <a href="/" class="sf-logo" aria-label="Soul Webs — Home">
+          <img src="/img/logo-96.webp" width="96" height="96" decoding="async" loading="lazy" alt="">
+          <span>Soul Webs</span>
+        </a>
+        <p>Local SEO studio for hair salons, barbershops and restaurants, with fast websites built to rank.</p>
+        <a href="mailto:soulwebs2026@gmail.com" class="sf-mail">soulwebs2026@gmail.com</a>
+      </div>
+      <div class="sf-col" role="navigation" aria-label="Footer: explore">
+        <h4>Explore</h4>
         <ul>
           <li><a href="/">Home</a></li>
-          <li><a href="/services">Services</a></li>
+          <li><a href="/services" aria-current="page">Services</a></li>
           <li><a href="/work">Work</a></li>
           <li><a href="/sectors">Industries</a></li>
-          <li><a href="/reviews">Reviews</a></li><li><a href="/guides">Blog</a></li>
+          <li><a href="/reviews">Reviews</a></li>
           <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
-      <div class="footer-col">
-        <h4>Plans & services</h4>
+      <div class="sf-col" role="navigation" aria-label="Footer: services">
+        <h4>Services</h4>
         <ul>
-          <li><a href="/services#seo">Local SEO</a></li>
-          <li><a href="/services#pro">SEO plan</a></li>
-          <li><a href="/services#ads">Google & Meta Ads</a></li>
+          <li><a href="/services#pro">Local SEO plan</a></li>
+          <li><a href="/services#seo">How we rank you</a></li>
+          <li><a href="/services#reservas">Online booking</a></li>
           <li><a href="/services#hosting">Hosting</a></li>
+          <li><a href="/services#ads">Add-ons</a></li>
         </ul>
       </div>
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <div class="footer-contact-item">
-          <span class="ctype">Email</span>
-          <a href="mailto:soulwebs2026@gmail.com">soulwebs2026@gmail.com</a>
-        </div>
-        <div class="footer-contact-item">
-          <span class="ctype">Instagram</span>
-          <a href="https://instagram.com/soul_webs" target="_blank" rel="noopener">@soul_webs</a>
-        </div>
+      <div class="sf-col" role="navigation" aria-label="Footer: guides">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="/guides/local-seo-hair-salons-rank-first-google">Rank first on Google</a></li>
+          <li><a href="/guides/own-website-or-booksy-fresha">Own website or Booksy?</a></li>
+          <li><a href="/guides/hair-salon-website-cost">Website cost</a></li>
+          <li><a href="/guides">All guides</a></li>
+        </ul>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>© 2026 Soul Webs · Designed in Spain</span>
-      <span><a href="/legal" style="color:inherit">Legal notice</a> · <a href="/privacy" style="color:inherit">Privacy & cookies</a> · <a href="/accessibility" style="color:inherit">Accessibility</a> · <a href="/servicios" hreflang="es" lang="es" style="color:inherit">Español</a></span>
+
+    <div class="sf-bottom">
+      <span>© 2026 Soul Webs · Designed in Spain, built for the US</span>
+      <span class="sf-legal">
+        <a href="/legal">Legal notice</a>
+        <a href="/privacy">Privacy &amp; cookies</a>
+        <a href="/accessibility">Accessibility</a>
+        <a href="/servicios" hreflang="es" lang="es">Español</a>
+      </span>
     </div>
+
   </div>
 </footer>
 <script src="/contact.js" defer></script>
