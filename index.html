@@ -32,6 +32,7 @@
 <link rel="stylesheet" href="/fonts/fonts.css">
 <link rel="stylesheet" href="/ui.css">
 <link rel="stylesheet" href="/nav.css">
+<link rel="stylesheet" href="/footer.css">
 <script>document.documentElement.className+=' js';</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://www.soulwebsites.com/#organization", "name": "Soul Webs", "alternateName": ["Soul SEO", "Soul Websites", "soulwebs", "SoulWebs"], "url": "https://www.soulwebsites.com/", "logo": "https://www.soulwebsites.com/logo.jpg", "email": "soulwebs2026@gmail.com", "sameAs": ["https://instagram.com/soul_webs"], "contactPoint": [{"@type": "ContactPoint", "email": "soulwebs2026@gmail.com", "contactType": "customer service", "areaServed": ["US", "ES"], "availableLanguage": ["English", "Spanish"]}]}, {"@type": "ProfessionalService", "@id": "https://www.soulwebsites.com/#business", "name": "Soul Webs", "url": "https://www.soulwebsites.com/", "image": "https://www.soulwebsites.com/logo.jpg", "email": "soulwebs2026@gmail.com", "description": "Local SEO, Google ranking improvement, website speed optimization and fast, search-ready websites for hair salons, barbershops and restaurants. Free Google snapshot.", "areaServed": [{"@type": "Country", "name": "United States"}, {"@type": "Country", "name": "Spain"}], "availableLanguage": ["English", "Spanish"], "parentOrganization": {"@id": "https://www.soulwebsites.com/#organization"}, "knowsAbout": ["Local SEO", "Google Business Profile", "Google Maps rankings", "Core Web Vitals", "Website speed optimization", "Schema.org", "Web design", "Online booking integration"]}, {"@type": "WebSite", "@id": "https://www.soulwebsites.com/#website", "url": "https://www.soulwebsites.com/", "name": "Soul Webs", "alternateName": ["Soul SEO", "soulwebsites.com"], "inLanguage": "en-US", "publisher": {"@id": "https://www.soulwebsites.com/#organization"}}, {"@type": "WebPage", "@id": "https://www.soulwebsites.com/#webpage", "url": "https://www.soulwebsites.com/", "name": "Soul Webs — Local SEO, Google Rankings & Fast Websites", "inLanguage": "en-US", "isPartOf": {"@id": "https://www.soulwebsites.com/#website"}, "about": {"@id": "https://www.soulwebsites.com/#business"}}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.soulwebsites.com/"}]}, {"@type": "Service", "name": "Essential Website", "serviceType": "Website design", "provider": {"@id": "https://www.soulwebsites.com/#organization"}, "areaServed": "US", "description": "One complete, fast, professional page with built-in booking, Google reviews, map, technical SEO and hosting included."}, {"@type": "Service", "name": "Pro Website with SEO blog", "serviceType": "Website design and SEO", "provider": {"@id": "https://www.soulwebsites.com/#organization"}, "areaServed": "US", "description": "Everything in Essential plus dedicated subpages, an SEO blog with up to 12 articles, bilingual content and organic SEO."}, {"@type": "Service", "name": "Local SEO", "serviceType": "Local search engine optimization", "provider": {"@id": "https://www.soulwebsites.com/#organization"}, "areaServed": "US", "description": "Google Business Profile optimization, technical audit, on-page SEO and review strategy for local businesses."}, {"@type": "Service", "name": "Website speed optimization", "serviceType": "Core Web Vitals and page speed optimization", "provider": {"@id": "https://www.soulwebsites.com/#organization"}, "areaServed": "US", "description": "Audit and speed-up of new or existing websites: image compression, lazy loading, font and script optimization, CDN hosting, Core Web Vitals."}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can you guarantee I'll be #1 on Google?", "acceptedAnswer": {"@type": "Answer", "text": "No — and nobody honestly can. Google decides rankings. What we promise is careful work by Google's rules, a fast site, and a clear monthly report showing where you're moving."}}, {"@type": "Question", "name": "How long until my rankings improve?", "acceptedAnswer": {"@type": "Answer", "text": "In a quiet area, changes to your Google Business Profile and website can show within weeks. In competitive downtown areas, expect a few months of steady work."}}, {"@type": "Question", "name": "I already have a website. Can you just make it faster?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We audit it in PageSpeed Insights, fix what slows it down (images, fonts, scripts, hosting) and tell you exactly what changed."}}, {"@type": "Question", "name": "Do you work with US businesses from Spain?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Everything is done online, by email or video call, with invoices in US dollars."}}, {"@type": "Question", "name": "Who owns my website and Google profile?", "acceptedAnswer": {"@type": "Answer", "text": "You do. Your Google Business Profile, domain and accounts stay in your name."}}]}]}</script>
 <style>
@@ -216,6 +217,7 @@ section{scroll-margin-top:80px}
 
 /* cta */
 .cta{margin:clamp(64px,10vw,120px) var(--gut) 0;max-width:calc(var(--max) - 2*var(--gut));margin-inline:auto;background:var(--ink);color:var(--bone);border-radius:28px;padding:clamp(40px,7vw,80px) clamp(22px,5vw,64px);text-align:center;display:flex;flex-direction:column;align-items:center;gap:16px}
+.cta{margin-bottom:clamp(56px,8vw,96px)}
 @media (max-width:1300px){.cta{margin-inline:var(--gut)}}
 .cta h2{font-size:clamp(34px,6vw,60px);line-height:1.02}
 .cta h2 em{color:var(--brown-soft)}
@@ -451,19 +453,31 @@ section{scroll-margin-top:80px}
 
 </main>
 
-<footer class="foot">
-  <div class="foot-top">
-    <div class="foot-brand">
-      <a href="/" class="brand" aria-label="Soul Webs — Home"><img src="/img/logo-96.webp" width="96" height="96" alt="" class="brand-logo"><span class="brand-name">Soul Webs</span></a>
-      <p>Local SEO, speed optimization and websites built to rank — for salons, barbershops and restaurants. Designed in Spain, built for the US.</p>
+<footer class="swf">
+  <div class="swf-in">
+    <div class="swf-top">
+      <div class="swf-brand">
+        <a href="/" class="swf-logo" aria-label="Soul Webs — Home"><img src="/img/logo-96.webp" width="40" height="40" alt="" loading="lazy" decoding="async"><span>Soul Webs</span></a>
+        <p>Local SEO and fast websites that help salons, barbershops and restaurants get found first on Google.</p>
+        <a href="mailto:soulwebs2026@gmail.com?subject=Free%20Google%20snapshot" class="swf-cta">Get a free Google snapshot <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="swf-col" role="navigation" aria-label="Footer">
+        <h2>Explore</h2>
+        <ul><li><a href="/" aria-current="page">Home</a></li><li><a href="/services">Services</a></li><li><a href="/work">Work</a></li><li><a href="/sectors">Industries</a></li><li><a href="/guides">Guides</a></li><li><a href="/reviews">Reviews</a></li><li><a href="/contact">Contact</a></li></ul>
+      </div>
+      <div class="swf-col">
+        <h2>Services</h2>
+        <ul><li><a href="/services#seo">Local SEO</a></li><li><a href="/services#speed">Speed optimization</a></li><li><a href="/services#diseno-web">Websites built to rank</a></li><li><a href="/services#reservas">Online booking</a></li></ul>
+      </div>
+      <div class="swf-col swf-contact">
+        <h2>Contact</h2>
+        <ul><li><a href="mailto:soulwebs2026@gmail.com">soulwebs2026@gmail.com</a></li><li><a href="https://instagram.com/soul_webs" target="_blank" rel="noopener">Instagram @soul_webs</a></li></ul>
+      </div>
     </div>
-    <div class="foot-col"><h4>Explore</h4><a href="/services">Services</a><a href="/work">Work</a><a href="/sectors">Industries</a><a href="/guides">Guides</a><a href="/reviews">Reviews</a><a href="/contact">Contact</a></div>
-    <div class="foot-col"><h4>Services</h4><a href="/services#seo">Local SEO</a><a href="#speed">Speed optimization</a><a href="/services#esencial">Essential Website</a><a href="/services#pro">Pro Website &amp; blog</a><a href="/services#hosting">Hosting</a></div>
-    <div class="foot-col"><h4>Contact</h4><a href="mailto:soulwebs2026@gmail.com">soulwebs2026@gmail.com</a><a href="https://instagram.com/soul_webs" target="_blank" rel="noopener">Instagram @soul_webs</a></div>
-  </div>
-  <div class="foot-bottom">
-    <span>© 2026 Soul Webs</span>
-    <span><a href="/legal">Legal notice</a> · <a href="/privacy">Privacy &amp; cookies</a> · <a href="/accessibility">Accessibility</a> · <a href="/es" hreflang="es" lang="es">Español</a></span>
+    <div class="swf-bottom">
+      <span>© 2026 Soul Webs · Based in Spain, working with US businesses</span>
+      <span class="swf-legal"><a href="/legal">Legal notice</a><a href="/privacy">Privacy</a><a href="/accessibility">Accessibility</a></span>
+    </div>
   </div>
 </footer>
 
